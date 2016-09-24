@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      JAR Build Script                                              +
-# project    nord-intellij-idea-syntax                                     +
-# version                                                                  +
-# repository https://github.com/arcticicestudio/nord-intellij-idea-syntax  +
-# author     Arctic Ice Studio                                             +
-# email      development@arcticicestudio.com                               +
-# copyright  Copyright (C) 2016                                            +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      JAR Build Script                                             +
+# project    nord-intellij-idea-syntax                                    +
+# version    0.1.0                                                        +
+# repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
+# author     Arctic Ice Studio                                            +
+# email      development@arcticicestudio.com                              +
+# copyright  Copyright (C) 2016                                           +
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 JAR=`which jar`
 ICLS_FILE_NAME=nord-intellij-idea-syntax.icls
-VERSION=
+VERSION=0.1.0
 
 if [ -z "$JAR" ]; then
   echo "Required tools are missing or not available on the path: jar"
