@@ -389,7 +389,8 @@ IntelliJ IDEA
     </option>
     <option name="CSS.IMPORTANT">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="5e81ac" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
