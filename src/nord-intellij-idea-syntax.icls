@@ -1466,7 +1466,7 @@ IntelliJ IDEA
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_EXTEND">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="d08770" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
