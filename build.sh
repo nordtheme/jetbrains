@@ -2,15 +2,14 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # title      JAR Build Script                                             +
 # project    nord-intellij-idea-syntax                                    +
-# version    0.1.0                                                        +
 # repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
 # author     Arctic Ice Studio                                            +
 # email      development@arcticicestudio.com                              +
-# copyright  Copyright (C) 2016                                           +
+# copyright  Copyright (C) 2017                                           +
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 JAR=`which jar`
 ICLS_FILE_NAME=nord-intellij-idea-syntax.icls
-VERSION=0.1.0
+VERSION=0.2.0
 
 if [ -z "$JAR" ]; then
   echo "Required tools are missing or not available on the path: jar"

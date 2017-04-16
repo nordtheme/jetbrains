@@ -1,20 +1,20 @@
 <!--
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Nord IntelliJ IDEA Syntax                                     +
-project    nord-intellij-idea-syntax                                     +
-version    0.1.0                                                         +
-repository https://github.com/arcticicestudio/nord-intellij-idea-syntax  +
-author     Arctic Ice Studio                                             +
-email      development@arcticicestudio.com                               +
-copyright  Copyright (C) 2016                                            +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Nord IntelliJ IDEA Syntax                                    +
+project    nord-intellij-idea-syntax                                    +
+version    0.2.0                                                        +
+repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
+author     Arctic Ice Studio                                            +
+email      development@arcticicestudio.com                              +
+copyright  Copyright (C) 2017                                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
 Nord
-  (http://github.com/arcticicestudio/nord)
+  http://github.com/arcticicestudio/nord
 IntelliJ IDEA
-  (https://www.jetbrains.com/idea/help/configuring-colors-and-fonts.html)
-  (https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html)
+  https://www.jetbrains.com/idea/help/configuring-colors-and-fonts.html
+  https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html
 -->
 <scheme name="Nord" version="142" parent_scheme="Darcula">
   <option name="LINE_SPACING" value="1.0" />
@@ -27,6 +27,7 @@ IntelliJ IDEA
     <option name="CARET_ROW_COLOR" value="3b4252" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2e3440" />
     <option name="DELETED_LINES_COLOR" value="bf616a" />
+    <option name="DOCUMENTATION_COLOR" value="434c5e" />
     <option name="FILESTATUS_ADDED" value="a3be8c" />
     <option name="FILESTATUS_DELETED" value="bf616a" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="4c566a" />
@@ -167,6 +168,31 @@ IntelliJ IDEA
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+        <option name="BACKGROUND" value="434c5e" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+        <option name="BACKGROUND" value="434c5e" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="eceff4" />
+        <option name="BACKGROUND" value="434c5e" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="4c566a" />
+        <option name="BACKGROUND" value="3b4252" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -364,7 +390,8 @@ IntelliJ IDEA
     </option>
     <option name="CSS.IMPORTANT">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="5e81ac" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
@@ -654,9 +681,7 @@ IntelliJ IDEA
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -974,6 +999,12 @@ IntelliJ IDEA
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="5e81ac" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="4c566a" />
+        <option name="BACKGROUND" value="3b4252" />
       </value>
     </option>
     <option name="Implicit conversion">
@@ -1435,7 +1466,7 @@ IntelliJ IDEA
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_EXTEND">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="d08770" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
