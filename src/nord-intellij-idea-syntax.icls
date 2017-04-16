@@ -1,20 +1,20 @@
 <!--
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Nord IntelliJ IDEA Syntax                                     +
-project    nord-intellij-idea-syntax                                     +
-version    0.1.0                                                         +
-repository https://github.com/arcticicestudio/nord-intellij-idea-syntax  +
-author     Arctic Ice Studio                                             +
-email      development@arcticicestudio.com                               +
-copyright  Copyright (C) 2016                                            +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Nord IntelliJ IDEA Syntax                                    +
+project    nord-intellij-idea-syntax                                    +
+version    0.2.0                                                        +
+repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
+author     Arctic Ice Studio                                            +
+email      development@arcticicestudio.com                              +
+copyright  Copyright (C) 2017                                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
 Nord
-  (http://github.com/arcticicestudio/nord)
+  http://github.com/arcticicestudio/nord
 IntelliJ IDEA
-  (https://www.jetbrains.com/idea/help/configuring-colors-and-fonts.html)
-  (https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html)
+  https://www.jetbrains.com/idea/help/configuring-colors-and-fonts.html
+  https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html
 -->
 <scheme name="Nord" version="142" parent_scheme="Darcula">
   <option name="LINE_SPACING" value="1.0" />
