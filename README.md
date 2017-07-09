@@ -13,6 +13,8 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
   - [Getting started](#getting-started)
     - [Build](#build)
+      - [Linux and MacOS](#linux-and-macos)
+      - [Windows](#windows)
     - [Installation](#installation)
       - [Import](#import)
       - [Manual](#manual)
@@ -25,11 +27,18 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ## Getting started
 ### Build
-The settings JAR file can be build using the `build.sh` script:
+The settings JAR artifact can be build from the CLI using the build scripts. The file will be placed in the `build` directory.  
+**Note that the scripts require the `jar` command to be available on your path!**
+
+#### Linux and MacOS
 ```sh
-./build.sh
+build.sh
 ```
-Note that the script requires the `jar` command to be available on your path!
+
+#### Windows
+```sh
+./build.bat
+```
 
 ### Installation
 #### Import
