@@ -260,7 +260,7 @@ IntelliJ IDEA
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d8dee9" />
+        <option name="FOREGROUND" value="3b4252" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -359,7 +359,7 @@ IntelliJ IDEA
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="3b4252" />
+        <option name="FOREGROUND" value="d8dee9" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
