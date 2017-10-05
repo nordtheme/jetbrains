@@ -9,7 +9,7 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 JAR=`which jar`
 ICLS_FILE_NAME=nord-intellij-idea-syntax.icls
-VERSION=0.2.0
+VERSION=0.3.0
 
 if [ -z "$JAR" ]; then
   echo "Required tools are missing or not available on the path: jar"

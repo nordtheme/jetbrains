@@ -2,7 +2,7 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 title      Nord IntelliJ IDEA Syntax                                    +
 project    nord-intellij-idea-syntax                                    +
-version    0.2.0                                                        +
+version    0.3.0                                                        +
 repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
 author     Arctic Ice Studio                                            +
 email      development@arcticicestudio.com                              +
@@ -28,6 +28,7 @@ IntelliJ IDEA
     <option name="CONSOLE_BACKGROUND_KEY" value="2e3440" />
     <option name="DELETED_LINES_COLOR" value="bf616a" />
     <option name="DOCUMENTATION_COLOR" value="434c5e" />
+    <option name="ERROR_HINT" value="434c5e" />
     <option name="FILESTATUS_ADDED" value="a3be8c" />
     <option name="FILESTATUS_DELETED" value="bf616a" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="4c566a" />
@@ -51,10 +52,12 @@ IntelliJ IDEA
     <option name="HTML_TAG_TREE_LEVEL4" value="" />
     <option name="HTML_TAG_TREE_LEVEL5" value="" />
     <option name="INDENT_GUIDE" value="4c566a" />
+    <option name="INFORMATION_HINT" value="434c5e" />
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
     <option name="METHOD_SEPARATORS_COLOR" value="d8dee9" />
     <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
     <option name="NOTIFICATION_BACKGROUND" value="d8dee9" />
+    <option name="QUESTION_HINT" value="434c5e" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="4c566a" />
     <option name="SELECTED_TEARLINE_COLOR" value="434c5e" />
@@ -260,7 +263,7 @@ IntelliJ IDEA
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d8dee9" />
+        <option name="FOREGROUND" value="3b4252" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -359,7 +362,7 @@ IntelliJ IDEA
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="3b4252" />
+        <option name="FOREGROUND" value="d8dee9" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -391,7 +394,6 @@ IntelliJ IDEA
     <option name="CSS.IMPORTANT">
       <value>
         <option name="FOREGROUND" value="5e81ac" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
@@ -440,8 +442,13 @@ IntelliJ IDEA
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a3be8c" />
+      </value>
+    </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="Class" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="DART_CONSTRUCTOR">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -527,7 +534,6 @@ IntelliJ IDEA
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="4c566a" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -706,28 +712,28 @@ IntelliJ IDEA
     <option name="DIFF_CONFLICT">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="5e81ac" />
+        <option name="BACKGROUND" value="41536b" />
         <option name="ERROR_STRIPE_COLOR" value="5e81ac" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="bf616a" />
+        <option name="BACKGROUND" value="684651" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="a3be8c" />
+        <option name="BACKGROUND" value="5d6b5e" />
         <option name="ERROR_STRIPE_COLOR" value="a3be8c" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="ebcb8b" />
+        <option name="BACKGROUND" value="7a705e" />
         <option name="ERROR_STRIPE_COLOR" value="ebcb8b" />
       </value>
     </option>
@@ -778,7 +784,7 @@ IntelliJ IDEA
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="81a1c1" />
+        <option name="BACKGROUND" value="41536b" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -976,7 +982,6 @@ IntelliJ IDEA
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="434c5e" />
         <option name="EFFECT_COLOR" value="88c0d0" />
       </value>
     </option>
@@ -1222,14 +1227,25 @@ IntelliJ IDEA
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="4c566a" />
+      </value>
+    </option>
     <option name="MARKDOWN_CODE_BLOCK">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
     </option>
     <option name="MARKDOWN_CODE_FENCE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
     </option>
     <option name="MARKDOWN_CODE_SPAN">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
     </option>
     <option name="MARKDOWN_CODE_SPAN_MARKER">
       <value>
@@ -1525,7 +1541,6 @@ IntelliJ IDEA
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
@@ -1595,6 +1610,16 @@ IntelliJ IDEA
     </option>
     <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
     <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="TAPESTRY_COMPONENT_PARAMATER">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
+    </option>
+    <option name="TAPESTRY_COMPONENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="81a1c1" />
+      </value>
+    </option>
     <option name="TDIFF_EXCLUDED_COLUMN">
       <value>
         <option name="FOREGROUND" value="4c566a" />
@@ -1695,7 +1720,6 @@ IntelliJ IDEA
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="434c5e" />
         <option name="EFFECT_COLOR" value="88c0d0" />
       </value>
     </option>

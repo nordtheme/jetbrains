@@ -1,6 +1,8 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-intellij-idea-syntax/develop/src/assets/nord-intellij-idea-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-intellij-idea-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-000000.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-intellij-idea-syntax.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-000000.svg?style=flat-square"/></a></p>
+
+<p align="center"><a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/blob/v0.3.0/CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-0.3.0-81A1C1.svg?style=flat-square"/></a></p>
 
 <p align="center">An arctic, north-bluish clean and elegant IntelliJ IDEA syntax theme.</p>
 
@@ -13,6 +15,8 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
   - [Getting started](#getting-started)
     - [Build](#build)
+      - [Linux and MacOS](#linux-and-macos)
+      - [Windows](#windows)
     - [Installation](#installation)
       - [Import](#import)
       - [Manual](#manual)
@@ -25,11 +29,18 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ## Getting started
 ### Build
-The settings JAR file can be build using the `build.sh` script:
+The settings JAR artifact can be build from the CLI using the build scripts. The file will be placed in the `build` directory.  
+**Note that the scripts require the `jar` command to be available on your path!**
+
+#### Linux and MacOS
 ```sh
-./build.sh
+build.sh
 ```
-Note that the script requires the `jar` command to be available on your path!
+
+#### Windows
+```sh
+./build.bat
+```
 
 ### Installation
 #### Import
@@ -92,9 +103,6 @@ Information about additional languages can be found in the [Plugins](#plugins) s
 This theme provides support for many [JetBrain- and community plugins](https://plugins.jetbrains.com).  
 Detailed descriptions for supported plugins/languages can be found in the [project wiki](https://github.com/arcticicestudio/nord-intellij-idea-syntax/wiki).
 
-## Development
-[![](https://img.shields.io/badge/Changelog-0.2.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
-
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-intellij-idea-syntax/issues).
 
@@ -102,4 +110,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2017 Arctic Ice Studio</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a></p>
