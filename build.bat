@@ -9,7 +9,7 @@
 @ECHO OFF
 SET ICLS_FILE_NAME="nord-intellij-idea-syntax.icls"
 SET INTELLIJ_EXPORT_FLAG_FILE_NAME="IntelliJ IDEA Global Settings"
-SET VERSION="0.2.0"
+SET VERSION="0.3.0"
 
 IF NOT EXIST src\%ICLS_FILE_NAME% (
   ECHO Source file not found: src\$ICLS_FILE_NAME
