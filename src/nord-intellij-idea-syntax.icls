@@ -982,7 +982,6 @@ IntelliJ IDEA
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="434c5e" />
         <option name="EFFECT_COLOR" value="88c0d0" />
       </value>
     </option>
@@ -1721,7 +1720,6 @@ IntelliJ IDEA
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="434c5e" />
         <option name="EFFECT_COLOR" value="88c0d0" />
       </value>
     </option>
