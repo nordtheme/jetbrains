@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      JAR Build Script                                             +
-# project    nord-intellij-idea-syntax                                    +
-# repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
-# author     Arctic Ice Studio                                            +
-# email      development@arcticicestudio.com                              +
-# copyright  Copyright (C) 2017                                           +
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord IntelliJ IDEA Syntax
+# Repository: https://github.com/arcticicestudio/nord-intellij-idea-syntax
+# License:    MIT
+
 JAR=`which jar`
 ICLS_FILE_NAME=nord-intellij-idea-syntax.icls
 VERSION=0.3.0

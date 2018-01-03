@@ -1,21 +1,16 @@
 <!--
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Nord IntelliJ IDEA Syntax                                    +
-project    nord-intellij-idea-syntax                                    +
-version    0.3.0                                                        +
-repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
-author     Arctic Ice Studio                                            +
-email      development@arcticicestudio.com                              +
-copyright  Copyright (C) 2017                                           +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-[References]
-Nord
-  http://github.com/arcticicestudio/nord
-IntelliJ IDEA
+Project:    Nord IntelliJ IDEA Syntax
+Version:    0.3.0
+Repository: https://github.com/arcticicestudio/nord-intellij-idea-syntax
+License:    MIT
+References:
   https://www.jetbrains.com/idea/help/configuring-colors-and-fonts.html
   https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html
 -->
+
 <scheme name="Nord" version="142" parent_scheme="Darcula">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="18" />
