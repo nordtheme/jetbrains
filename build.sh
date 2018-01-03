@@ -2,12 +2,12 @@
 # Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
 # Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-# Project:    Nord IntelliJ IDEA Syntax
-# Repository: https://github.com/arcticicestudio/nord-intellij-idea-syntax
+# Project:    Nord JetBrains Editor
+# Repository: https://github.com/arcticicestudio/nord-jetbrains-editor
 # License:    MIT
 
 JAR=`which jar`
-ICLS_FILE_NAME=nord-intellij-idea-syntax.icls
+ICLS_FILE_NAME=nord-jetbrains-editor.icls
 VERSION=0.3.0
 
 if [ -z "$JAR" ]; then
@@ -28,7 +28,7 @@ fi
 mkdir -p build/colors
 touch "build/IntelliJ IDEA Global Settings"
 cp src/$ICLS_FILE_NAME build/colors
-`$JAR cMf build/nord-intellij-idea-syntax-${VERSION}.jar -C build .`
+`$JAR cMf build/nord-jetbrains-editor-${VERSION}.jar -C build .`
 
 if [ $? -eq 0 ]; then
   rm -r build/colors
