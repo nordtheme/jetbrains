@@ -1,12 +1,12 @@
 :: Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
 :: Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-:: Project:    Nord IntelliJ IDEA Syntax
-:: Repository: https://github.com/arcticicestudio/nord-intellij-idea-syntax
+:: Project:    Nord JetBrains Editor
+:: Repository: https://github.com/arcticicestudio/nord-jetbrains-editor
 :: License:    MIT
 
 @ECHO OFF
-SET ICLS_FILE_NAME="nord-intellij-idea-syntax.icls"
+SET ICLS_FILE_NAME="nord-jetbrains-editor.icls"
 SET INTELLIJ_EXPORT_FLAG_FILE_NAME="IntelliJ IDEA Global Settings"
 SET VERSION="0.3.0"
 
@@ -26,7 +26,7 @@ IF EXIST build ECHO Cleaning previous builds
 MKDIR build\colors
 COPY /Y NUL build\%INTELLIJ_EXPORT_FLAG_FILE_NAME% >nul 2>&1
 COPY src\%ICLS_FILE_NAME% build\colors >nul 2>&1
-jar cMf build\nord-intellij-idea-syntax-%VERSION%.jar -C build .
+jar cMf build\nord-jetbrains-editor-%VERSION%.jar -C build .
 
 IF %ERRORLEVEL% EQU 0 (
   DEL build\%INTELLIJ_EXPORT_FLAG_FILE_NAME%
