@@ -1,11 +1,10 @@
-:: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-:: title      JAR Build Batch Script                                       +
-:: project    nord-intellij-idea-syntax                                    +
-:: repository https://github.com/arcticicestudio/nord-intellij-idea-syntax +
-:: author     Arctic Ice Studio                                            +
-:: email      development@arcticicestudio.com                              +
-:: copyright  Copyright (C) 2017                                           +
-:: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:: Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+:: Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+:: Project:    Nord IntelliJ IDEA Syntax
+:: Repository: https://github.com/arcticicestudio/nord-intellij-idea-syntax
+:: License:    MIT
+
 @ECHO OFF
 SET ICLS_FILE_NAME="nord-intellij-idea-syntax.icls"
 SET INTELLIJ_EXPORT_FLAG_FILE_NAME="IntelliJ IDEA Global Settings"
