@@ -12,9 +12,11 @@ References:
 -->
 
 <scheme name="Nord" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a3be8c" />
     <option name="ANNOTATIONS_COLOR" value="d8dee9" />
@@ -40,12 +42,6 @@ References:
     <option name="FILESTATUS_changelistConflict" value="d08770" />
     <option name="FILESTATUS_modifiedOutside" value="ebcb8b" />
     <option name="GUTTER_BACKGROUND" value="2e3440" />
-    <option name="HTML_TAG_TREE_LEVEL0" value="" />
-    <option name="HTML_TAG_TREE_LEVEL1" value="" />
-    <option name="HTML_TAG_TREE_LEVEL2" value="" />
-    <option name="HTML_TAG_TREE_LEVEL3" value="" />
-    <option name="HTML_TAG_TREE_LEVEL4" value="" />
-    <option name="HTML_TAG_TREE_LEVEL5" value="" />
     <option name="INDENT_GUIDE" value="4c566a" />
     <option name="INFORMATION_HINT" value="434c5e" />
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
@@ -443,7 +439,7 @@ References:
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Class" baseAttributes="" />
     <option name="DART_CONSTRUCTOR">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -743,7 +739,6 @@ References:
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="ERL_ATOM" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="ERL_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
@@ -761,14 +756,12 @@ References:
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
-    <option name="ERL_RECORDS" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="ERL_TYPE">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="ERL_VARIABLES" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
@@ -865,7 +858,6 @@ References:
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -956,13 +948,11 @@ References:
         <option name="FOREGROUND" value="8fbcbb" />
       </value>
     </option>
-    <option name="HOCON_OPTIONAL_SUBSTITUTION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="HOCON_SUBSTITUTION_BRACES">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="HOCON_SUBSTITUTION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
@@ -1025,8 +1015,8 @@ References:
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="JAVA_KEYWORD" baseAttributes="" />
+    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
@@ -1040,13 +1030,12 @@ References:
     <option name="JSP_DIRECTIVE_BACKGROUND">
       <value />
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="5e81ac" />
       </value>
     </option>
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
     </option>
@@ -1077,7 +1066,6 @@ References:
         <option name="FOREGROUND" value="88c0d0" />
       </value>
     </option>
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_COLOR" value="d8dee9" />
@@ -1114,7 +1102,6 @@ References:
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="KOTLIN_VARIABLE_AS_FUNCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1194,21 +1181,18 @@ References:
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="LUA_FIELD" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="LUA_GLOBAL_VAR">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="LUA_LOCAL_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="LUA_LUADOC_VALUE">
       <value>
         <option name="FOREGROUND" value="4c566a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="LUA_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="LUA_UPVAL">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
@@ -1394,18 +1378,11 @@ References:
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
-    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="QL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1538,7 +1515,7 @@ References:
         <option name="FOREGROUND" value="d8dee9" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="STYLUS_FUNCTION_NAME">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1603,8 +1580,7 @@ References:
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="" />
     <option name="TAPESTRY_COMPONENT_PARAMATER">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -1696,7 +1672,6 @@ References:
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="VELOCITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -1755,14 +1730,12 @@ References:
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.XPATH_NAME">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1774,13 +1747,11 @@ References:
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="com.plan9.INSTRUCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
       </value>
     </option>
-    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.PSEUDO_INSTRUCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
