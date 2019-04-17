@@ -13,10 +13,10 @@ References:
 
 <scheme name="Nord" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2019-04-12T01:29:37</property>
+    <property name="created">2019-04-17T18:55:15</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2019-04-12T01:29:46</property>
+    <property name="modified">2019-04-17T18:55:24</property>
     <property name="originalScheme">_@user_Nord</property>
   </metaInfo>
   <colors>
@@ -49,7 +49,7 @@ References:
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
     <option name="METHOD_SEPARATORS_COLOR" value="d8dee9" />
     <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
-    <option name="NOTIFICATION_BACKGROUND" value="d8dee9" />
+    <option name="NOTIFICATION_BACKGROUND" value="" />
     <option name="QUESTION_HINT" value="434c5e" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="4c566a" />
