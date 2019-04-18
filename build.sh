@@ -8,7 +8,7 @@
 
 JAR=`which jar`
 ICLS_FILE_NAME=nord-jetbrains-editor.icls
-VERSION=0.3.0
+VERSION=0.4.0
 
 if [ -z "$JAR" ]; then
   echo "Required tools are missing or not available on the path: jar"
