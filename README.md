@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains-editor/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains-editor.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1_+-000000.svg?style=flat-square"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains-editor/blob/v0.3.0/CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-0.3.0-81A1C1.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains-editor/blob/v0.4.0/CHANGELOG.md#040"><img src="https://img.shields.io/badge/Changelog-0.4.0-81A1C1.svg?style=flat-square"/></a></p>
 
 <p align="center">An arctic, north-bluish clean and elegant IntelliJ IDEA editor color scheme.</p>
 
