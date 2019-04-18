@@ -1,15 +1,62 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-intellij-idea-syntax/develop/src/assets/nord-intellij-idea-syntax-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/nord-jetbrains-editor-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-intellij-idea-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-intellij-idea-syntax.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1_+-161616.svg?style=flat-square"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains-editor/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains-editor.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1_+-000000.svg?style=flat-square"/></a></p>
 
----
+<!--lint disable no-duplicate-headings-->
+
+# 0.4.0
+
+![Release Date: 2019-04-18](https://img.shields.io/badge/Release_Date-2019--04--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/4)
+
+## Improvements
+
+**Editor Color Scheme Plugin** — #28 ⇄ #33 (⊶ 762dd193)
+↠ The theme is now available from the [JetBrains Plugins Repository][jb-plug-repo-nord].
+
+JetBrains announced a new feature for the platform that allows to [export editor color schemes as plugins][jb-blog-theme-plug] which can be easily installed from the [Plugin Repository][jb-plug-repo]. Color scheme plugins can be filtered with the [_Editor Color Schemes_][jb-plug-cat-cs] category.
+
+This feature greatly improves the installation process for Nord regarding the UX and version update handling compared to the manual installation and is the recommended method.
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-browse-repositories.png" /></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-search.png" /></p>
+
+### Syntax
+
+**Comment Color Brightness** — #41 ⇄ #42 (⊶ 04adc7b0)
+↠ Implemented the increase of the comment color (`nord3`) brightness by 10% from a lightness level of ~35% to ~45%.
+
+➜ **Please see [arcticicestudio/nord#94][] for all details about this design change decision**!
+
+<p align="center"><strong>Before</strong><img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" /></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902735-76886c80-4eda-11e9-9aa0-41ded647bdb2.png" /></p>
+
+<p align="center"><strong>After</strong><img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" /></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902765-856f1f00-4eda-11e9-9d09-50c89faece43.png" /></p>
+
+## Tasks
+
+### Documentation
+
+**Migration to MIT license** — #29 ⇄ #30 (⊶ 4081f21e)
+↠ Migrated to the MIT license to adapt to the migration of the main [Nord][] project.
+
+➜ **Please see the [main task ticket][arcticicestudio/nord#55] for all details about this change decision.**
+
+**Project renaming to "Nord JetBrains Editor"** — #31 ⇄ #32 (⊶ b2a80df3)
+↠ The project started with the main indention in my mind to target the [IntelliJ IDEA][intellij] IDE and create a new port project for each IDE from JetBrains, but since all these awesome products are internally based on the IntelliJ engine the color scheme format can be used universally.
+
+To clarify the compatibility with all IDEs from JetBrains the project has been renamed to _Nord JetBrains Editor_ (`nord-jetbrains-editor`). The "Editor" post-fix word is used to keep the namespace open for the possibility that JetBrains introduces a official UI theme API someday. This is currently only possible by using an unoffical way like overriding internal IDE files as shown by the [Material Theme UI][plugin-mat-ui] plugin.
 
 # 0.3.0
-![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/milestone/3)
+
+![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/3)
 
 This release adds support for the latest IntelliJ IDEA version 2017.2 + features.
 
-[![](https://img.shields.io/badge/IntelliJ_IDEA-2017.2_+-161616.svg?style=flat-square)](https://www.jetbrains.com/idea/whatsnew/#v2017-2)
+[![](https://img.shields.io/badge/IntelliJ_IDEA-2017.2_+-000000.svg?style=flat-square)](https://www.jetbrains.com/idea/whatsnew/#v2017-2)
 
 ## Features
 
@@ -38,7 +85,7 @@ This release adds support for the latest IntelliJ IDEA version 2017.2 + features
 ❯ Switched the reversed console *black*- and *white* ANSI colors. (@arcticicestudio, #14 PR #19, 604eadfc)
 
 # 0.2.0
-![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/milestone/2)
+![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/2)
 
 This release adds support for the latest IntelliJ IDEA version.  
 <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-161616.svg?style=flat-square"/></a>
@@ -70,15 +117,42 @@ This also includes preprocessor language keywords for Sass and LESSCSS like `!de
 ❯ Fixed a typo in the project description. (@arcticicestudio, #4, 78b269ec)
 
 # 0.1.0
-![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-intellij-idea-syntax/milestone/1)
+![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/1)
 
 ## Features
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-intellij-idea-syntax/blob/develop/README.md#features) section.
+A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#features) section.
 
-Detailed information about [features](https://github.com/arcticicestudio/nord-intellij-idea-syntax/blob/develop/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-intellij-idea-syntax/develop/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-intellij-idea-syntax/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-intellij-idea-syntax/wiki).
+Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains-editor/develop/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains-editor/wiki).
 
 **Full support for the **community- and ultimate** edition!** (@arcticicestudio, #1, eb127486)
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
-![](https://raw.githubusercontent.com/arcticicestudio/nord-intellij-idea-syntax/develop/src/assets/scrot-lang-java.png)
+![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-lang-java.png)
+
+<!--
++------------------+
++ Symbol Reference +
++------------------+
+↠ (U+21A0): Start of a log section description
+— (U+2014): Separator between a log section title and the metadata
+⇄ (U+21C4): Separator between a issue ID and pull request ID in a log metadata
+⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
+-->
+
+<!-- lint disable final-definition -->
+
+<!-- Base Links -->
+
+[intellij]: https://www.jetbrains.com/idea
+[jb-plug-cat-cs]: https://plugins.jetbrains.com/tag?headline=151-editor-color-schemes
+[jb-plug-repo-nord]: https://plugins.jetbrains.com/plugin/10321-nord-color-scheme
+[jb-plug-repo]: https://plugins.jetbrains.com
+[nord]: https://www.nordtheme.com
+
+<!--v 0.4.0 -->
+
+[arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[arcticicestudio/nord#94]: https://github.com/arcticicestudio/nord/issues/94
+[jb-blog-theme-plug]: https://blog.jetbrains.com/platform/2017/12/export-intellij-editor-themes-as-plugins
+[plugin-mat-ui]: https://plugins.jetbrains.com/plugin/8006-material-theme-ui
