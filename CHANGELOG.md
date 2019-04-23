@@ -1,6 +1,6 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/nord-jetbrains-editor-banner.svg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/assets/nord-jetbrains-editor-banner.svg?sanitize=true"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains-editor/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains-editor.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1_+-000000.svg?style=flat-square"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains-editor/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains-editor.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2019.1_+-000000.svg?style=flat-square"/></a></p>
 
 <!--lint disable no-duplicate-headings-->
 
@@ -17,9 +17,9 @@ JetBrains announced a new feature for the platform that allows to [export editor
 
 This feature greatly improves the installation process for Nord regarding the UX and version update handling compared to the manual installation and is the recommended method.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-browse-repositories.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/assets/scrot-installation-plugin-browse-repositories.png" /></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-search.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/assets/scrot-installation-plugin-search.png" /></p>
 
 ### Syntax
 
@@ -128,7 +128,7 @@ Detailed information about [features](https://github.com/arcticicestudio/nord-je
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
-![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-lang-java.png)
+![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/assets/scrot-lang-java.png)
 
 <!--
 +------------------+
