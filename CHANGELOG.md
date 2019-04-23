@@ -1,12 +1,72 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/nord-jetbrains-editor-banner.svg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/nord-jetbrains-banner.svg?sanitize=true"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains-editor/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains-editor.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1_+-000000.svg?style=flat-square"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2019.1_+-000000.svg?style=flat-square"/></a></p>
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.5.0
+
+![Release Date: 2019-04-23](https://img.shields.io/badge/Release_Date-2019--04--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/8) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/5)
+
+## Features
+
+<p align="center"><img src="https://camo.githubusercontent.com/b82fdd0ee86ed240793dd94cca072cc18dfef02d/68747470733a2f2f64336e6d7435766c7a756e6f61312e636c6f756466726f6e742e6e65742f696465612f66696c65732f323031392f30332f626c6f674032782d312e706e67" width="600px" /></p>
+
+**IDE 2019.1 Plugin and UI Theme Transition** — #43 ⇄ #45 (⊶ 18f9989d)
+↠ As of [IntelliJ IDEA 2019.1][jb-blog-2019.1] it is finally possible to [theme the IDE UI][jb-blog-ui-theme]! Therefore this theme is now a full [IntelliJ Platform SDK][jb-doc-sdk] plugin using [JetBrain's DevKit][jb-doc-devkit] and providing both a [IDE UI][jb-doc-ui-theme] and [editor theme][jb-doc-editor-theme].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560919-071f9e80-65a6-11e9-8228-1768778bc323.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560920-071f9e80-65a6-11e9-8a61-20a877daafff.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560921-07b83500-65a6-11e9-8a44-092927c070e6.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560922-07b83500-65a6-11e9-9965-b182b886f51a.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560923-07b83500-65a6-11e9-82c3-19642d2d3464.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560924-07b83500-65a6-11e9-9586-e9e153c519a2.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560925-07b83500-65a6-11e9-9f7b-638b0c294d7b.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560926-07b83500-65a6-11e9-8237-0417801ff8b8.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560927-0850cb80-65a6-11e9-886a-4c3975a18381.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560928-0850cb80-65a6-11e9-8a5b-3ace489b1db2.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560929-0850cb80-65a6-11e9-9290-8289442d282c.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560930-0850cb80-65a6-11e9-96a6-593e46230d63.png"></p>
+
+### Workflow
+
+The theme was migrated by following the [official workflow documentation][jb-doc-ui-theme-workflow] to
+
+1. [Customize the UI icons and Controls][jb-doc-ui-theme-customize]
+2. [Bundle the already existing editor color theme][jb-doc-editor-theme]
+3. [Build, debug and test the theme plugin][jb-doc-test-build]
+4. [Deploy and publish the theme plugin][jb-doc-deploy]
+
+The IntelliJ SDK provides a lot of tools to develop plugins by [enabling the internal mode][jb-doc-intmode] that will allow to show e.g. the [_LaF Defaults_][jb-doc-lafdef].
+The plugin is represented by a [plugin icon][jb-doc-icon] that is also available as of the the IntelliJ Platform version 2019.1.
+The _Nord JetBrains_ plugin also tries to follow the [IntelliJ Platform UI Guidelines][jb-doc-ui-guidelines].
+
+### Minimum IntelliJ Platform SDK Version Requirement
+
+Since _Nord JetBrains_ is now a plugin instead of only a editor theme file (`.icls`), that can also be imported manually, the minimum version of IntelliJ has been raised to _2019.1_.
+
+### Documentation Changes
+
+The install instructions have been updated to match the installation method through the [official Plugin Repository][jb-plug-repo-nord].
+
+### No More Custom Compilation Scripts
+
+Since the plugin is now provided through the [official Plugin Repository][jb-plug-repo-nord] it is not necessary anymore to compile the plugin manually.
+The IntelliJ Platform SDK allows to [run and debug and plugin from within the IDE][jb-doc-debug] and [can be deployed/compiled using the builtin functions][jb-doc-deploy].
+
+### Unused UI Elements
+
+There are some UI elements that are currently not used due to the fact that there was no way to figure out where and how they are used. It requires feedback from the community to find these elements that are not styled or covered by the global `*` wildcard styles, allowing to add these UI elements from time to time.
+
+## Tasks
+
+**Project renaming to "Nord JetBrains"** — #44 ⇄ #45 (⊶ 18f9989d)
+↠ In GH-31 the project was renamed from `nord-intellij-idea-syntax` to `nord-jetbrains-editor` where the `editor` post-fix word was used to keep the namespace open for the possibility that JetBrains introduces a official UI theme API someday.
+This is now finally the case so the project has been renamed to `nord-jetbrains` to clarify the theme is a full JetBrain Platform SDK plugin that provides both a UI and editor theme and is also compatible with all currently available IDEs.
+
 # 0.4.0
 
-![Release Date: 2019-04-18](https://img.shields.io/badge/Release_Date-2019--04--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/4)
+![Release Date: 2019-04-18](https://img.shields.io/badge/Release_Date-2019--04--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/4)
 
 ## Improvements
 
@@ -17,9 +77,9 @@ JetBrains announced a new feature for the platform that allows to [export editor
 
 This feature greatly improves the installation process for Nord regarding the UX and version update handling compared to the manual installation and is the recommended method.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-browse-repositories.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/scrot-installation-plugin-browse-repositories.png" /></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-installation-plugin-search.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/scrot-installation-plugin-search.png" /></p>
 
 ### Syntax
 
@@ -48,11 +108,11 @@ This feature greatly improves the installation process for Nord regarding the UX
 **Project renaming to "Nord JetBrains Editor"** — #31 ⇄ #32 (⊶ b2a80df3)
 ↠ The project started with the main indention in my mind to target the [IntelliJ IDEA][intellij] IDE and create a new port project for each IDE from JetBrains, but since all these awesome products are internally based on the IntelliJ engine the color scheme format can be used universally.
 
-To clarify the compatibility with all IDEs from JetBrains the project has been renamed to _Nord JetBrains Editor_ (`nord-jetbrains-editor`). The "Editor" post-fix word is used to keep the namespace open for the possibility that JetBrains introduces a official UI theme API someday. This is currently only possible by using an unoffical way like overriding internal IDE files as shown by the [Material Theme UI][plugin-mat-ui] plugin.
+To clarify the compatibility with all IDEs from JetBrains the project has been renamed to _Nord JetBrains Editor_ (`nord-jetbrains`). The "Editor" post-fix word is used to keep the namespace open for the possibility that JetBrains introduces a official UI theme API someday. This is currently only possible by using an unoffical way like overriding internal IDE files as shown by the [Material Theme UI][plugin-mat-ui] plugin.
 
 # 0.3.0
 
-![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/3)
+![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/3)
 
 This release adds support for the latest IntelliJ IDEA version 2017.2 + features.
 
@@ -82,25 +142,29 @@ This release adds support for the latest IntelliJ IDEA version 2017.2 + features
 
 ## Bug Fixes
 
-❯ Switched the reversed console *black*- and *white* ANSI colors. (@arcticicestudio, #14 PR #19, 604eadfc)
+❯ Switched the reversed console _black_- and _white_ ANSI colors. (@arcticicestudio, #14 PR #19, 604eadfc)
 
 # 0.2.0
-![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/2)
+
+![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/2)
 
 This release adds support for the latest IntelliJ IDEA version.  
 <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-161616.svg?style=flat-square"/></a>
 
 ## Features
+
 ❯ The breadcrumbs are now styled to fit the theme ambience. (@arcticicestudio, #6, df321b6e)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065781/c8c035ee-2215-11e7-951b-d96e9437ef81.png"/></p>
 
-❯ Added styles for the *Inline Parameter Hint* feature. (@arcticicestudio, #8, 63baa4a3)
+❯ Added styles for the _Inline Parameter Hint_ feature. (@arcticicestudio, #8, 63baa4a3)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065829/934dc2f4-2216-11e7-8557-ca61356dfd36.png"/></p>
 
 ## Bug Fixes
+
 ### Languages
+
 ❯ Fixed a bug where all template languages have been using the `italic` font type attribute. (@echosa, #5, 8cf5ef9d)
 Thanks to @pemedina for investigating in finding the cause of this bug.
 
@@ -114,21 +178,24 @@ This also includes preprocessor language keywords for Sass and LESSCSS like `!de
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065785/e1529174-2215-11e7-8022-03c01d38e1ea.png"/></p>
 
 ### Documentation
+
 ❯ Fixed a typo in the project description. (@arcticicestudio, #4, 78b269ec)
 
 # 0.1.0
-![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains-editor/milestone/1)
+
+![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/1)
 
 ## Features
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#features) section.
 
-Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains-editor/develop/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains-editor/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains-editor/wiki).
+A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/develop/README.md#features) section.
+
+Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains/blob/develop/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains/develop/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains/wiki).
 
 **Full support for the **community- and ultimate** edition!** (@arcticicestudio, #1, eb127486)
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
-![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains-editor/develop/src/assets/scrot-lang-java.png)
+![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/scrot-lang-java.png)
 
 <!--
 +------------------+
@@ -156,3 +223,21 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [arcticicestudio/nord#94]: https://github.com/arcticicestudio/nord/issues/94
 [jb-blog-theme-plug]: https://blog.jetbrains.com/platform/2017/12/export-intellij-editor-themes-as-plugins
 [plugin-mat-ui]: https://plugins.jetbrains.com/plugin/8006-material-theme-ui
+
+<!--v 0.5.0 -->
+
+[jb-blog-2019.1]: https://blog.jetbrains.com/idea/2019/03/intellij-idea-2019-1-is-released-theme-customization-java-12-switch-expressions-debug-inside-docker-containers-and-more
+[jb-blog-ui-theme]: https://blog.jetbrains.com/idea/2019/03/brighten-up-your-day-add-color-to-intellij-idea
+[jb-doc-debug]: https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/running_and_debugging_a_plugin.html
+[jb-doc-deploy]: https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/deploying_plugin.html
+[jb-doc-devkit]: http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/using_dev_kit.html
+[jb-doc-editor-theme]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_extras.html
+[jb-doc-icon]: https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_icon_file.html
+[jb-doc-intmode]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/internal_actions/enabling_internal.html
+[jb-doc-lafdef]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/internal_actions/internal_ui_lafd.html
+[jb-doc-sdk]: http://www.jetbrains.org/intellij/sdk/docs/welcome.html
+[jb-doc-test-build]: http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/running_and_debugging_a_plugin.html
+[jb-doc-ui-guidelines]: https://jetbrains.github.io/ui
+[jb-doc-ui-theme-customize]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_customize.html
+[jb-doc-ui-theme-workflow]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes.html#custom-ui-theme-workflow
+[jb-doc-ui-theme]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html
