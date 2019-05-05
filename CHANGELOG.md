@@ -1,8 +1,12 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/nord-jetbrains-banner.svg?sanitize=true"/></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/jetbrains" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-jetbrains/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2019.1_+-000000.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+
+<p align="center"><a href="https://www.jetbrains.com/idea/whatsnew/#v2019-1" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=JetBrains%20Products&message=2019.1%2B&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMTcuNyA1NC42TC44IDQxLjJsOC40LTE1LjZMMzMuMyAzNXoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43bC0xLjMgNDAuNUw0MS44IDcwIDI1LjYgNTkuNiA0OS4zIDM1IDM4LjkgMTIuM2w5LjMtMTEuMnoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43TDQ4LjcgNDMuOWwtOS44LTMxLjYgOS4zLTExLjJ6Ii8%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMzMuNyA1OC4xTDUuNiA2OC4zbDQuNS0xNS44TDE2IDMzLjEgMCAyNy43IDEwLjEgMGwyMiAyLjcgMjEuNiAyNC43eiIvPiAgPHBhdGggZD0iTTEzLjcgMTMuNWg0My4ydjQzLjJIMTMuN3oiIGZpbGw9IiM0YzU2NmEiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik0xNy43IDQ4LjZoMTYuMnYyLjdIMTcuN3ptMTEuNy0yNi4ydi0zLjNoLTl2My4zSDIzdjExLjNoLTIuNlYzN2g5di0zLjNoLTIuNVYyMi40ek0zOCAzNy4zYy0xLjQgMC0yLjYtLjMtMy41LS44LS45LS41LTEuNy0xLjItMi4zLTEuOWwyLjUtMi44Yy41LjYgMSAxIDEuNSAxLjMuNS4zIDEuMS41IDEuNy41LjcgMCAxLjMtLjIgMS44LS43LjQtLjUuNi0xLjIuNi0yLjNWMTkuMWg0djExLjdjMCAxLjEtLjEgMi0uNCAyLjgtLjMuOC0uNyAxLjQtMS4zIDItLjUuNS0xLjIgMS0yIDEuMi0uOC4zLTEuNi41LTIuNi41Ii8%2BPC9zdmc%2B"/></a></p>
 
 <!--lint disable no-duplicate-headings-->
+
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
 # 0.5.0
 
@@ -196,6 +200,12 @@ Detailed information about [features](https://github.com/arcticicestudio/nord-je
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
 ![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/develop/assets/scrot-lang-java.png)
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
+
+<p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
+
+<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains/blob/develop/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 <!--
 +------------------+
