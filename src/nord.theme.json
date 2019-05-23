@@ -124,12 +124,12 @@
       "underlineColor": "#88c0d0"
     },
     "FileColor": {
-      "Blue": "#88c0d0",
-      "Green": "#a3be8c",
-      "Orange": "#d08770",
-      "Rose": "#bf616a",
-      "Violet": "#b48ead",
-      "Yellow": "#ebcb8b"
+      "Blue": "#88c0d01a",
+      "Green": "#a3be8c1a",
+      "Orange": "#d087701a",
+      "Rose": "#bf616a1a",
+      "Violet": "#b48ead1a",
+      "Yellow": "#ebcb8b1a"
     },
     "Group": {
       "disabledSeparatorColor": "#3b4252"
