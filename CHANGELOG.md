@@ -8,6 +8,56 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.6.0
+
+![Release Date: 2019-05-23](https://img.shields.io/badge/Release_Date-2019--05--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/9) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/6)
+
+## Features
+
+**Nord Docs Transition** — #48 ⇄ #49 (⊶ d1cb66a6)
+↠ Transferred all documentations, assets and from „Nord JetBrains to [Nord Docs]
+Please see the [corresponding issue in the Nord Docs repository][nord-docs#140] to get an overview of what has changed for Nord JetBrains and what has been done to migrate to Nord Docs.
+
+###### Landing Page
+
+<p align="center"><a href="https://www.nordtheme.com/ports/jetbrains" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189976-67530080-6f15-11e9-9938-7ad5feb71d13.png" alt="Preview: Nord JetBrains Port Project Landing Page"/></a></p>
+
+###### Landing Page Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189922-ba788380-6f14-11e9-8900-11e96ef98b0a.png" alt="Preview: Nord JetBrains Docs Project Landing Page"/></a></p>
+
+###### Installation & Activation Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189920-ba788380-6f14-11e9-9595-34a3f4effd2d.png" alt="Preview: Nord JetBrains Docs Installation & Activation Page"/></a></p>
+
+###### Development Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains/development" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189979-6fab3b80-6f15-11e9-9492-e473b244ea36.png" alt="Preview: Nord JetBrains Docs Development Page"/></a></p>
+
+## Improvements
+
+**Reduced opacity for "File Colors" UI theme keys** — #47, #51 ⇄ #53 (⊶ aa7f39e8)
+↠ Changed the opacity of [File Colors][jb-doc-file_colors] to 10% which is still enough to be recognizable and doesn't affects the readability of labels. With the previous colors (100% opacity) this resulted in too bright highlighted backgrounds making most labels unreadable and destroying the themes overall appearance.
+
+The _File Colors_ are used to distinguish between project files, folders or packages of specific scopes. Unfortunately the theme API doesn't allow (yet) to specify the target for the color like e.g. background or only foreground.
+
+###### Before
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237656-f0579d80-7d45-11e9-9d6a-9ae9923299c5.png"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237738-1e3ce200-7d46-11e9-8364-6ce1fc8352eb.png"></p>
+
+###### After
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237729-18df9780-7d46-11e9-8092-78aa51fe5837.png"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237667-f5b4e800-7d45-11e9-9fe1-9f40c2328b9e.png"></p>
+
+## Tasks
+
+**Update to latest build range number for 2019.1** — #54 (⊶ 13ef43d9)
+↠ Increased the `since` [build range number][jb-doc-sdk-build_range_num] to `191.0` to fullfil the minimum required version since the plugin is compatible with the latest UI theme API added in Product version 2019.1.
+
 # 0.5.0
 
 ![Release Date: 2019-04-23](https://img.shields.io/badge/Release_Date-2019--04--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/8) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/5)
@@ -222,6 +272,8 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 <!-- Base Links -->
 
 [intellij]: https://www.jetbrains.com/idea
+[jb-doc-file_colors]: https://www.jetbrains.com/help/idea/settings-file-colors.html
+[jb-doc-sdk-build_range_num]: http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
 [jb-plug-cat-cs]: https://plugins.jetbrains.com/tag?headline=151-editor-color-schemes
 [jb-plug-repo-nord]: https://plugins.jetbrains.com/plugin/10321-nord-color-scheme
 [jb-plug-repo]: https://plugins.jetbrains.com
@@ -251,3 +303,7 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [jb-doc-ui-theme-customize]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_customize.html
 [jb-doc-ui-theme-workflow]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes.html#custom-ui-theme-workflow
 [jb-doc-ui-theme]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html
+
+<!--v 0.6.0 -->
+
+[nord-docs#140]: https://github.com/arcticicestudio/nord-docs/issues/140
