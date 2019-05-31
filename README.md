@@ -81,8 +81,8 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [nord-contrib-guide-styles]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#styleguides
 [nord-contrib-guide-versioning]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#versioning
 [nord-contrib-guide]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md
-[nord-docs-home-develop]: http://localhost:8000/docs/ports/jetbrains/development
-[nord-docs-home-install]: http://localhost:8000/docs/ports/jetbrains/installation
+[nord-docs-home-develop]: https://www.nordtheme.com/docs/ports/jetbrains/development
+[nord-docs-home-install]: https://www.nordtheme.com/docs/ports/jetbrains/installation
 [nord-docs-home]: https://www.nordtheme.com/docs/ports/jetbrains
 [nord-home]: https://www.nordtheme.com/ports/jetbrains
 [nord-home#editor-details]: https://www.nordtheme.com/ports/jetbrains#editor-details
