@@ -1307,6 +1307,12 @@
         <option name="FOREGROUND" value="4c566a" />
       </value>
     </option>
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="bf616a" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="434c5e" />
