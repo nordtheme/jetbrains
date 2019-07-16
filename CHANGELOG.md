@@ -8,6 +8,60 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.7.0
+
+![Release Date: 2019-07-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2016-07-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/7)
+
+## Features
+
+**Deprecated symbols marked for removal** — #63 ⇄ #64 (⊶ ae805373)
+↠ The “General“ editor scheme section provides a option to style _deprecated symbols that are marked for removal_.
+The new `MARKED_FOR_REMOVAL_ATTRIBUTES` key has been added using a `strikethrough` effect style colorized with `nord11` to draw more attention to such elements.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548762-260e3180-8f54-11e9-90c7-ec5a6a4ce92b.png"></p>
+
+## Improvements
+
+**Editor Notification Background Color** — #52 ⇄ #61 (⊶ 0bad27ee) by [@singlepig][gh-user-singlepig]
+↠ Before the new UI theme API was released the editor color scheme provided multiple theme keys to also style some UI elements like the editor notifications ([`NOTIFICATION_BACKGROUND`][gh-intellij-tree-not_back-const#l46] like also defined in the [default bundled Darcula editor color scheme][gh-intellij-tree-schememanager#l1230]).
+The key allows to style the background color of notifications from the editor that are placed right below the tab bar at the top of the editor.
+
+Previously `nord4` was used that made the text almost unreadable because by default a low contrast foreground is used.
+This has now been changed to use `nord3` making the actual text content readable again.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59462569-4c34b400-8e24-11e9-9551-b1cc9a29ce22.png"></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59462619-71c1bd80-8e24-11e9-90a8-fe33f94b08a7.png"></p>
+
+**Colliding styles for lines with both syntax and code inspection errors** — #60 ⇄ #62 (⊶ e3189d04) by [@mojodna][gh-user-mojodna]
+↠ A line that contained both a syntax error as well as a _IntelliJ Code Inspection_ (`ERRORS_ATTRIBUTES` editor scheme key) error was unreadable because both error detection scopes/types applied their different highlighting styles resulting in a background and foreground color colorized with `nord11`. This made it impossible to read the text.
+
+<p align="center">Highlighting resulting in unreadable text when combined with error text</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548537-20fbb300-8f51-11e9-98b3-ed48888f4978.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/45/59316741-cfafa300-8c74-11e9-8f9c-cfd85ead65dd.png"></p>
+
+Some tests using a opacity of 60% for `nord11` as background color instead resulted in a “dirty redish“ color due to the miy with the base editor background color.
+
+<p align="center">Reduced opacity of 60%</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59513773-d1b77300-8ebb-11e9-95d8-ddb86a988c82.png"></p>
+
+Therefore a better style of highlighting these errors has been designed.
+The new style doesn't make use of a background color at all based on the fact that it is a duplicate highlighting. If there's a syntax error the invalid tokens will be highlighted with `nord11` due to the syntax error so there is no need to additionally colorize the background with `nord11` which is the main reason for the unreadable text.
+
+The new styles for _Code Inspection_ errors has been simplified to use `nord11` as foreground color with a bold underline and the already used error stripe next to the line numbers. This design decision also comes with a change for the “Unknown Symbol“ highlighting (`WRONG_REFERENCES_ATTRIBUTES` color scheme key) that now uses a dotted underline instead to differentiate from the new error styles.
+
+<p align="center">Improved error and <em>Unknown Symbol</em> styles</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548550-556f6f00-8f51-11e9-8270-5eff1fc7863a.png"></p>
+
+## Bug Fixes
+
+### Documentation
+
+**Invalid `localhost:8000` URLs in README** — #56 (⊶ b349d0d4)
+↠ The README contained two `http://localhost:8000` URLs that were pointing to the local development environment instead of the production URLs of the Nord website that have both been replaced with the correct URLs.
+
 # 0.6.0
 
 ![Release Date: 2019-05-23](https://img.shields.io/badge/Release_Date-2019--05--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/9) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/6)
@@ -307,3 +361,10 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 <!--v 0.6.0 -->
 
 [nord-docs#140]: https://github.com/arcticicestudio/nord-docs/issues/140
+
+<!--v 0.7.0 -->
+
+[gh-intellij-tree-not_back-const#l46]: https://github.com/JetBrains/intellij-community/blob/33f568ba94669047ac2bb4782f3a27d5008680fa/platform/editor-ui-api/src/com/intellij/openapi/editor/colors/EditorColors.java#L46
+[gh-intellij-tree-schememanager#l1230]: https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/DefaultColorSchemesManager.xml#L1230
+[gh-user-mojodna]: https://github.com/mojodna
+[gh-user-singlepig]: https://github.com/singlepig
