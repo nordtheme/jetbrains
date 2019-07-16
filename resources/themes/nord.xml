@@ -42,7 +42,7 @@
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
     <option name="METHOD_SEPARATORS_COLOR" value="d8dee9" />
     <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
-    <option name="NOTIFICATION_BACKGROUND" value="d8dee9" />
+    <option name="NOTIFICATION_BACKGROUND" value="4c566a" />
     <option name="QUESTION_HINT" value="434c5e" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="4c566a" />
@@ -759,10 +759,10 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d8dee9" />
-        <option name="BACKGROUND" value="bf616a" />
+        <option name="FOREGROUND" value="bf616a" />
+        <option name="EFFECT_COLOR" value="bf616a" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -1307,6 +1307,12 @@
         <option name="FOREGROUND" value="4c566a" />
       </value>
     </option>
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="bf616a" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="434c5e" />
@@ -1705,7 +1711,7 @@
         <option name="FOREGROUND" value="bf616a" />
         <option name="EFFECT_COLOR" value="bf616a" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
