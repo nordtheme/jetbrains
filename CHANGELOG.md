@@ -8,6 +8,162 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.8.0
+
+![Release Date: 2019-08-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/11) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/8)
+
+This version mainly focused on supporting the [latest JetBrains product versions 2019.2][jb-rln-2019.2] that introduced some breaking changes for UI theme keys and the [changes in Go's syntax highlighting for the default bundled color schemes][jb-goland-rln-2019.2#colorscheme].
+
+## Features
+
+**Go syntax highlighting support for IntelliJ/Goland 2019.2** — #69 ⇄ #70 (⊶ adbea3b1) by [@smonv][gh-user-smonv]
+↠ IntelliJ/Goland version 2019.2 [introduced support for 20+ languages][jb-rln-2019.2] out-of-the-box by integrating [TextMate][] schemes as well as [changes in Go's syntax highlight for the default bundled color schemes][jb-goland-rln-2019.2#colorscheme].
+Unfortunately this resulted in a change for existing theme definitions where some editor color scheme keys that previously inherited the best matching global key now used the attributes defined by the parent theme _Darcula_. Therefore Nord's highlighting for Go broke and required to explicitly define the values for some attributes in order to achieve the same highlight like in previous versions that are matching Nord's style guidelines.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" /></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" /></p>
+
+**Support 2019.2 deprecation replacement UI theme keys** — #86 ⇄ #87 (⊶ 990c2d25)
+↠ The latest JetBrains product versions 2019.2 deprecated some UI theme keys in favour of new keys that (can be found through the auto-completion and quick documentation thanks to the also [new `@since` _doc tag_ support for theme schemes][idea-216532]). This broke the styles when using the Nord plugin with the latest product versions due to the missing new keys.
+In order to support both versions `<2019.2` as well as `>=2019.2` the new keys have been added while also keeping the deprecated ones until they'll be removed from the UI theme API.
+
+1. Editor tabs using new keys for the active background (`underlinedTabBackground`) and when hovered (`hoverMaskColor`) and also now support customization of the bottom stripe when not focused (`inactiveUnderlineColor`).
+2. Debugger tabs are now using a new key for the background color (`underlinedTabBackground`) when active.
+3. The auto-completion popup now uses the same color like the `DOCUMENTATION_COLOR` attribute of the editor color scheme as well as a new key for the currently active selection (`selectionBackground`).
+4. The components of the status bar now using a new key to for the background color when hovered (`hoverBackground`).
+
+#### Editor Tabs
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307619-35095e80-b484-11e9-9123-2c3142fa4e11.png"/></p>
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307795-874a7f80-b484-11e9-89a1-d33bb942bab6.png"/></p>
+
+#### Auto Completion Popup
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307689-566a4a80-b484-11e9-8980-7d4b57e6253c.png"/></p>
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307793-86b1e900-b484-11e9-9b60-a4458cc5b12b.png"/></p>
+
+#### Debugger Tabs
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307690-566a4a80-b484-11e9-887a-bfb095bb889f.png"/></p>
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307794-874a7f80-b484-11e9-86b3-336d58053133.png"/></p>
+
+#### Status Bar Components
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307691-566a4a80-b484-11e9-83f9-d21e90620ff2.png"/></p>
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307796-874a7f80-b484-11e9-8414-94a3915842a4.png"/></p>
+
+#### Hovering Editor Tabs & Status Bar Components
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307692-566a4a80-b484-11e9-8bee-0426f6b90dab.gif"/></p>
+<p align="center"><strong>Hovering Editor Tabs & Status Bar Components</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307797-874a7f80-b484-11e9-9d36-b96216bdcfa4.gif"/></p>
+
+**Console log output** — #73 ⇄ #74 (⊶ b9ab18c4)
+↠ The JetBrains theme API in version 2019.2 introduced new keys to customize log output in the console that have been added:
+
+- `LOG_DEBUG_OUTPUT` — syntax color for output of the _DEBUG_ level using `nord15`
+- `LOG_INFO_OUTPUT` — syntax color for output of the _INFO_ level using `nord8`
+- `LOG_VERBOSE_OUTPUT` — syntax color for verbose output using `nord7`
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62275216-cb686080-b441-11e9-9898-2024a8122a51.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62275215-cb686080-b441-11e9-8a35-9070cad89406.png"/></p>
+
+**Diagram Theme Support** — #75 ⇄ #76 (⊶ e7dd0707)
+↠ [JetBrains core product version 2019.2 introduced theme support][idea-207533] for [_Diagrams_][jb-doc-diagrams] in order to prevent unreadable output due to „hardcoded“ color values not matching the currently active UI theme. The available theme keys have been added to better match Nord's style.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62279606-b93ef000-b44a-11e9-9867-ee33692b5f7b.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62279604-b8a65980-b44a-11e9-9e65-ad8245da7689.png"/></p>
+
+**JavaScript syntax highlighting support for product versions 2019.2** — #77 ⇄ #78 (⊶ 7884fd3b)
+↠ ↠ The JetBrains theme API in version 2019.2 introduced new keys for JavaScript global variables as well as instance functions that have been added:
+
+- `JS.GLOBAL_FUNCTION` — mapped to `DEFAULT_FUNCTION_DECLARATION`
+- `JS.GLOBAL_VARIABLE` — mapped to `DEFAULT_GLOBAL_VARIABLE`
+- `JS.INSTANCE_MEMBER_FUNCTION` — mapped to `DEFAULT_INSTANCE_METHOD`
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62283654-4df91c00-b452-11e9-9c87-1788f9cfb8ce.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62283653-4df91c00-b452-11e9-9341-2ea3125d169c.png"/></p>
+
+**Normal styles for TypeScript "type guarded" variables** — #81 ⇄ #82 (⊶ 48bf488c)
+↠ Variables for [TypeScript][] that are ["type guarded"][ts-docs-guard_var] previously used a greenish background color inherited from the parent _Darcula_ scheme and have been changed to use the default variables style instead since there is no need to explicitly highlight these syntax elements.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284838-b77a2a00-b454-11e9-85f2-fba1a3f52304.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284837-b77a2a00-b454-11e9-8eea-d12f2e611a73.png"/></p>
+
+**Normal styles for TypeScript "type guarded" variables** — #35 ⇄ #83 (⊶ 12200f3f)
+↠ Added support for the [official Python plugin][jb-plug-python] that adds syntax highlighting for Python as well as [Jupyter][] and [Mako Templates][makotemplates] and is equal to the [PyCharm Professional Edition][pycharm].
+
+#### Before
+
+<p align="center"><strong>Python</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292274-6410d780-b466-11e9-968e-3887719ca335.png"/></p>
+
+<p align="center"><strong>Jupyter</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292272-63784100-b466-11e9-9805-d68cac0d32a8.png"/></p>
+
+<p align="center"><strong>Mako Templates</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292273-63784100-b466-11e9-88d1-5313754c46be.png"/></p>
+
+#### After
+
+<p align="center"><strong>Python</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292333-7db21f00-b466-11e9-9e2e-2f323e96b7cc.png"/></p>
+
+<p align="center"><strong>Jupyter</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292331-7d198880-b466-11e9-9a5a-beb4bafb1d55.png"/></p>
+
+<p align="center"><strong>Mako Templates</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292332-7db21f00-b466-11e9-93f2-e6526b12d428.png"/></p>
+
+## Improvements
+
+**No italic font for user input in console** — #71 ⇄ #72 (⊶ 607a35e4)
+↠ Previously the font style for console user input was _italic_ that has been changed to use a normal style.
+
+**Use `nord8` for Markdown link titles** — #79 ⇄ #80 (⊶ 399af75c)
+↠ The color of Markdown link titles was highlighted with `nord14` and has been changed to `nord8` in order to match Nord's Markdown syntax styles.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284066-33737280-b453-11e9-9f26-5146eeb3ef62.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284065-33737280-b453-11e9-9eaa-658ce5e1350c.png"/></p>
+
+**No more editor color scheme font configurations** — #84 ⇄ #85 (⊶ 69942bc7)
+↠ In previous JetBrains product versions the editor color scheme allowed to provide configurations for the font rendering like the font family and size the user can apply by enabling checkbox through the editor font preferences labelled with „Use color scheme font instead of default“.
+In the latest versions like 2019.x these settings applied by default, overriding the user-defined font configuration which led to unintended font rendering.
+
+In order to prevent such problems as well as unexpected styles when the color scheme font family is not installed on the system, the configured font configurations has been removed completely.
+**Not defining font configurations is also recommended for shared color schemes (plugins)** like [mentioned in the official documentations][jb-docs-colors#fonts]:
+
+> ### Customize the color scheme font
+>
+> This is not recommended if you are planning to share your scheme or use it on other platforms, which may not support the selected font. In such cases, use the default global font settings.
+
 # 0.7.0
 
 ![Release Date: 2019-07-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2016-07-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/7)
@@ -69,7 +225,7 @@ The new styles for _Code Inspection_ errors has been simplified to use `nord11` 
 ## Features
 
 **Nord Docs Transition** — #48 ⇄ #49 (⊶ d1cb66a6)
-↠ Transferred all documentations, assets and from „Nord JetBrains to [Nord Docs]
+↠ Transferred all documentations, assets and from „Nord JetBrains to [Nord Docs][nord]
 Please see the [corresponding issue in the Nord Docs repository][nord-docs#140] to get an overview of what has changed for Nord JetBrains and what has been done to migrate to Nord Docs.
 
 ###### Landing Page
@@ -299,7 +455,7 @@ A complete list of all implemented features can be found in the [README](https:/
 
 Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains/blob/develop/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains/develop/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains/wiki).
 
-**Full support for the **community- and ultimate** edition!** (@arcticicestudio, #1, eb127486)
+**Full support for the community- and ultimate edition!** (@arcticicestudio, #1, eb127486)
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
@@ -321,26 +477,33 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 ⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
 -->
 
-<!-- lint disable final-definition -->
+<!--lint disable final-definition-->
 
 <!-- Base Links -->
 
 [intellij]: https://www.jetbrains.com/idea
+[jb-doc-diagrams]: https://www.jetbrains.com/help/idea/diagrams.html
 [jb-doc-file_colors]: https://www.jetbrains.com/help/idea/settings-file-colors.html
 [jb-doc-sdk-build_range_num]: http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
+[jb-docs-colors#fonts]: https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html#fonts
 [jb-plug-cat-cs]: https://plugins.jetbrains.com/tag?headline=151-editor-color-schemes
+[jb-plug-python]: https://plugins.jetbrains.com/plugin/631-python
 [jb-plug-repo-nord]: https://plugins.jetbrains.com/plugin/10321-nord-color-scheme
 [jb-plug-repo]: https://plugins.jetbrains.com
+[jupyter]: https://jupyter.org
 [nord]: https://www.nordtheme.com
+[pycharm]: https://www.jetbrains.com/pycharm
+[textmate]: https://macromates.com
+[typescript]: https://www.typescriptlang.org
 
-<!--v 0.4.0 -->
+<!-- v0.4.0 -->
 
 [arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
 [arcticicestudio/nord#94]: https://github.com/arcticicestudio/nord/issues/94
 [jb-blog-theme-plug]: https://blog.jetbrains.com/platform/2017/12/export-intellij-editor-themes-as-plugins
 [plugin-mat-ui]: https://plugins.jetbrains.com/plugin/8006-material-theme-ui
 
-<!--v 0.5.0 -->
+<!-- v0.5.0 -->
 
 [jb-blog-2019.1]: https://blog.jetbrains.com/idea/2019/03/intellij-idea-2019-1-is-released-theme-customization-java-12-switch-expressions-debug-inside-docker-containers-and-more
 [jb-blog-ui-theme]: https://blog.jetbrains.com/idea/2019/03/brighten-up-your-day-add-color-to-intellij-idea
@@ -358,13 +521,23 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [jb-doc-ui-theme-workflow]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes.html#custom-ui-theme-workflow
 [jb-doc-ui-theme]: http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html
 
-<!--v 0.6.0 -->
+<!-- v0.6.0 -->
 
 [nord-docs#140]: https://github.com/arcticicestudio/nord-docs/issues/140
 
-<!--v 0.7.0 -->
+<!-- v0.7.0 -->
 
 [gh-intellij-tree-not_back-const#l46]: https://github.com/JetBrains/intellij-community/blob/33f568ba94669047ac2bb4782f3a27d5008680fa/platform/editor-ui-api/src/com/intellij/openapi/editor/colors/EditorColors.java#L46
 [gh-intellij-tree-schememanager#l1230]: https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/DefaultColorSchemesManager.xml#L1230
 [gh-user-mojodna]: https://github.com/mojodna
 [gh-user-singlepig]: https://github.com/singlepig
+
+<!-- v0.8.0 -->
+
+[gh-user-smonv]: https://github.com/smonv
+[idea-207533]: https://youtrack.jetbrains.com/issue/IDEA-207533
+[idea-216532]: https://youtrack.jetbrains.com/issue/IDEA-216532
+[jb-goland-rln-2019.2#colorscheme]: https://www.jetbrains.com/go/whatsnew/#v2019-2-improved-default--darcula-color-schemes
+[jb-rln-2019.2]: https://www.jetbrains.com/idea/whatsnew/#v2019-2-editor
+[makotemplates]: https://www.makotemplates.org
+[ts-docs-guard_var]: https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-guards-and-differentiating-types
