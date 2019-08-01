@@ -13,6 +13,15 @@
     <option name="CARET_ROW_COLOR" value="3b4252" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2e3440" />
     <option name="DELETED_LINES_COLOR" value="bf616a" />
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="d08770" />
+    <option name="DIAGRAM_DEFAULT_EDGE" value="d8dee9" />
+    <option name="DIAGRAM_GENERALIZATION_EDGE" value="88c0d0" />
+    <option name="DIAGRAM_INNER_EDGE" value="8fbcbb" />
+    <option name="DIAGRAM_NODE_BACKGROUND" value="4c566a" />
+    <option name="DIAGRAM_NODE_HEADER" value="4c566a" />
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="434c5e" />
+    <option name="DIAGRAM_NOTE_BORDER" value="434c5e" />
+    <option name="DIAGRAM_REALIZATION_EDGE" value="a3be8c" />
     <option name="DOCUMENTATION_COLOR" value="434c5e" />
     <option name="ERROR_HINT" value="434c5e" />
     <option name="FILESTATUS_ADDED" value="a3be8c" />
