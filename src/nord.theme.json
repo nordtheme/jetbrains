@@ -82,8 +82,10 @@
     "CompletionPopup": {
       "background": "#323846",
       "matchForeground": "#88c0d0",
-      "nonFocusedState": "#2e3440",
       "matchSelectionForeground": "#88c0d0",
+      "nonFocusedMask": "#2e3440",
+      "nonFocusedState": "#2e3440",
+      "selectionBackground": "#4c566a",
       "selectionInactiveBackground": "#3b4252",
       "selectionInactiveInfoForeground": "#4c566a",
       "selectionInfoForeground": "#eceff4"
@@ -103,7 +105,8 @@
       "foreground": "#2e3440"
     },
     "DebuggerTabs": {
-      "selectedBackground": "#3b4252"
+      "selectedBackground": "#3b4252",
+      "underlinedTabBackground": "#3b4252"
     },
     "DragAndDrop": {
       "areaBackground": "#2e3440",
@@ -118,10 +121,14 @@
     },
     "EditorTabs": {
       "borderColor": "#2e3440",
+      "hoverMaskColor": "#4c566a",
+      "inactiveColoredFileBackground": "#2e3440",
       "inactiveMaskColor": "#3b4252",
+      "inactiveUnderlineColor": "#616e88",
       "selectedBackground": "#4c566a",
       "selectedForeground": "#d8dee9",
-      "underlineColor": "#88c0d0"
+      "underlineColor": "#88c0d0",
+      "underlinedTabBackground": "#4c566a"
     },
     "FileColor": {
       "Blue": "#88c0d01a",
@@ -303,6 +310,7 @@
       "foreground": "#88c0d0"
     },
     "StatusBar": {
+      "hoverBackground": "#4c566a",
       "borderColor": "#3b4252"
     },
     "TabbedPane": {
