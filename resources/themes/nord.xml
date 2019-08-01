@@ -1645,6 +1645,11 @@
         <option name="FOREGROUND" value="8fbcbb" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+      </value>
+    </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
