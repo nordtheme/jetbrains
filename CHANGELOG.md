@@ -8,6 +8,25 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.8.1
+
+![Release Date: 2019-08-03](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-03&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/12) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/9)
+
+This version fixed a high priority bug that affected the essential „Completion Popup“ UI component were none of the list items were visible as long as the popup has not been focused.
+
+## Bug Fixes
+
+**Unreadable completion popup list items in non-focused state** — #88 ⇄ #89 (⊶ a88dc78a) by [@alekc][gh-user-alekc]
+↠ In [v0.8.0][gh-rel-0.8.0], some new UI theme keys have been added and deprecated ones modified or removed through #86 and PR #87. This included the `ui.CompletionPopup.nonFocusedMask` key that has been set to `nord0` without a alpha layer value. Since the auto completion popup of IntelliSense if not focused but the editor itself, the overlay mask gets applied. As soon as the <kbd>▲</kbd> up or <kbd>▼</kbd> down arrow keys are pressed the popup gets the focus and therefore the mask gets removed showing the list items with correct styles.
+
+The key has been removed so the popup is equal like in the focused state for better readable text and easy recognition of the desired auto completion entry.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62409939-e3291b80-b5de-11e9-8367-53670c0ca0f1.gif" /></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62410003-01434b80-b5e0-11e9-9328-4aa120b2eb01.gif" /></p>
+
 # 0.8.0
 
 ![Release Date: 2019-08-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/11) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/8)
@@ -541,3 +560,8 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [jb-rln-2019.2]: https://www.jetbrains.com/idea/whatsnew/#v2019-2-editor
 [makotemplates]: https://www.makotemplates.org
 [ts-docs-guard_var]: https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-guards-and-differentiating-types
+
+<!-- v0.8.1 -->
+
+[gh-rel-0.8.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.8.0
+[gh-user-alekc]: https://github.com/alekc
