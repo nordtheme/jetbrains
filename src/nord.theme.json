@@ -83,7 +83,6 @@
       "background": "#323846",
       "matchForeground": "#88c0d0",
       "matchSelectionForeground": "#88c0d0",
-      "nonFocusedMask": "#2e3440",
       "nonFocusedState": "#2e3440",
       "selectionBackground": "#4c566a",
       "selectionInactiveBackground": "#3b4252",
