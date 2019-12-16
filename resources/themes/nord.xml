@@ -1541,13 +1541,11 @@
     <option name="REGEXP.BRACES">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REGEXP.BRACKETS">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ebcb8b" />
       </value>
     </option>
     <option name="REGEXP.CHAR_CLASS">
