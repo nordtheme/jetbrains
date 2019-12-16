@@ -8,6 +8,35 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.9.0
+
+![Release Date: 2019-12-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/13) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/10)
+
+This version mainly focused on supporting the [latest JetBrains product versions 2019.3][jb-rln-2019.3] that again changed the [default syntax highlighting for Go code editing][jb-goland-rln-2019.3#code-editing].
+
+## Improvements
+
+**No italic font for RegEx braces and brackets** — #107 ⇄ #111 (⊶ 2e3d4114) by [@n1kk][gh-user-n1kk]
+↠ Previously the font style for braces and brackets in regular expression were _italic_ that has been changed to use a normal style. This makes it look way cleaner and less distracting especially when it is mixed with different RegEx elements.
+
+<div align="center"><p><strong>Before</strong></p></div>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/70891834-58264c00-1fe8-11ea-8ff8-c55c2b3cb162.png"/></p>
+
+<div align="center"><p><strong>After</strong></p></div>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/70891833-58264c00-1fe8-11ea-9f27-a7b90a411ff4.png"/></p>
+
+## Bug Fixes
+
+**Go syntax highlighting support for IntelliJ/Goland 2019.3** — #108 ⇄ #109 (⊶ dde8ff0b)
+↠ Like already documented and fixed in [GH-70][], IntelliJ/Goland version 2019.3 also [changed Go's syntax highlight for the default bundled color schemes][jb-goland-rln-2019.3#code-editing].
+Unfortunately this resulted again in a change for existing theme definition where some editor color scheme keys that previously inherited the best matching global key now used the attributes defined by the parent theme _Darcula_. Therefore Nord's highlighting for Go broke again and required to explicitly define the values for some attributes in order to achieve the same highlight like in previous versions that are matching Nord's style guidelines.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" /></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" /></p>
+
 # 0.8.1
 
 ![Release Date: 2019-08-03](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-03&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/12) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/9)
@@ -565,3 +594,9 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 
 [gh-rel-0.8.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.8.0
 [gh-user-alekc]: https://github.com/alekc
+
+<!-- v0.9.0 -->
+
+[gh-user-n1kk]: https://github.com/n1kk
+[jb-goland-rln-2019.3#code-editing]: https://www.jetbrains.com/go/whatsnew/#v2019-3-code-editing
+[jb-rln-2019.3]: https://www.jetbrains.com/idea/whatsnew/#v2019-3
