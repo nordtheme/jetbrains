@@ -8,6 +8,59 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.10.0
+
+![Release Date: 2020-02-11](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-11&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/14) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/11)
+
+This version mainly focused on fixing some visual and usability bugs.
+
+## Improvements
+
+**Remove unused `parent_scheme` attribute from root tag of editor scheme** — #117 (related to #115, #116) (⊶ 6a608030) by [@Tom1206][gh-user-tom1206]
+↠ The `parent_scheme` is set automatically when a custom editor color scheme is created based on one of the bundled themes, like e.g. “Darcula“ when the IDE uses a dark theme or “Default“ in light mode.
+Anyway, the attribute is not required at all and has been removed.
+
+Moreover, to the time of this change there's no real indicator in the [“IntelliJ IDEA Community Edition“ source code][jetbrains/intellij-community-search-parent_scheme] that the attribute has any functionality but only [documenting the code base of the custom theme][jetbrains/intellij-community-abs_cls#l311].
+
+Nevertheless, it is possible that the attribute affects the logic how editor color schemes handle the inheritance of colors from other syntax definitions or the _Language Defaults_. There was an increasing amount of reported issues where syntax elements were highlighted with colors from the “Darcula“ editor scheme instead of the ones defined by Nord although the values must have been derived from other syntax definitions.
+This might be caused by the `parent_scheme` attribute which was set to “Darcula“.
+Therefore the attribute has now been removed to mitigate such behavior.
+
+Thanks to [@Tom1206][gh-user-tom1206] for the idea of inspecting the attribute. See #115 for more details.
+
+## Bug Fixes
+
+**Invisible background color of inactive completion popup item** — #118 (⊶ 23cea029) by [@alekc][gh-user-alekc] and [@cjkent][gh-user-cjkent]
+↠ Fixed the background color of the marked entry in the completion popup when triggered while typing (enabled [“Show suggestions as you type“ option in preferences][jb-doc-completion#config]) that was the same like the background of the popup itself. As a result, is was not possible to know which entry was selected to complete the current line.
+The problem only occurred when the completion popup was triggered while typing but not when being explicitly [invoked using the configured keymapping][jb-doc-completion#invoke_base] (<kbd>Ctrl</kbd> / <kbd>⌃</kbd> + <kbd>Space</kbd> by default).
+This was because the matching entry in the list, when invoked while typing, is _inactive_, but the color for inactive entries was the same like the background color of the popup itself.
+
+This problem is now fixed by changing the color of the corresponding UI theme key `ui.CompletionPopup.selectionInactiveBackground` from `nord1` to `nord3`.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74231745-9037cb80-4cc7-11ea-8695-cce2133da556.gif" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74231693-7302fd00-4cc7-11ea-84f9-17bb23175407.gif" />
+</div>
+
+**Wrong Type- and JavaScript highlighting inherited from parent scheme** — #116 ⇄ #115 (⊶ 061fd42b) by [@mariojackson][gh-user-mariojackson] and [@Tom1206][gh-user-tom1206]
+↠ As of IDE versions 2019.3.x, some TypeScript and JavaScript syntax elements were not highlighted correctly. The following elements inherited the colors from the default (bundled) _Darcula_ parent scheme instead of the language defaults defined by Nord:
+
+- _Global function_
+- _Global variable_
+- _Instance member function_
+- _Instance member variable_
+
+These elements are now using explicitly defined colors instead to fix the highlighting.
+
+<div align="center">
+	<p><strong>Before</strong></p>
+	<img src="https://user-images.githubusercontent.com/7836623/74188692-3f848c00-4c4f-11ea-88af-de1b774d687b.png" />
+	<p><strong>After</strong></p>
+	<img src="https://user-images.githubusercontent.com/7836623/74188691-3eebf580-4c4f-11ea-9782-5cf27bbe41f9.png" />
+</div>
+
 # 0.9.0
 
 ![Release Date: 2019-12-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/13) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/10)
@@ -544,6 +597,10 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [textmate]: https://macromates.com
 [typescript]: https://www.typescriptlang.org
 
+<!-- Shared Links-->
+
+[gh-user-alekc]: https://github.com/alekc
+
 <!-- v0.4.0 -->
 
 [arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
@@ -593,10 +650,19 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 <!-- v0.8.1 -->
 
 [gh-rel-0.8.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.8.0
-[gh-user-alekc]: https://github.com/alekc
 
 <!-- v0.9.0 -->
 
 [gh-user-n1kk]: https://github.com/n1kk
 [jb-goland-rln-2019.3#code-editing]: https://www.jetbrains.com/go/whatsnew/#v2019-3-code-editing
 [jb-rln-2019.3]: https://www.jetbrains.com/idea/whatsnew/#v2019-3
+
+<!-- v0.10.0 -->
+
+[gh-user-cjkent]: https://github.com/cjkent
+[gh-user-mariojackson]: https://github.com/mariojackson
+[gh-user-tom1206]: https://github.com/Tom1206
+[jb-doc-completion#config]: https://www.jetbrains.com/help/idea/auto-completing-code.html#configure-code-completion
+[jb-doc-completion#invoke_base]: https://www.jetbrains.com/help/idea/auto-completing-code.html#invoke-basic-completion
+[jetbrains/intellij-community-abs_cls#l311]: https://github.com/JetBrains/intellij-community/blob/4491058316bab4162d2ee0a926ac65553b56e6a5/platform/editor-ui-ex/src/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.java#L311-L313
+[jetbrains/intellij-community-search-parent_scheme]: https://github.com/JetBrains/intellij-community/search?p=2&q=parent_scheme&unscoped_q=parent_scheme
