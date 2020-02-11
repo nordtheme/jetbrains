@@ -1,9 +1,9 @@
-<scheme name="Nord" version="142" parent_scheme="Darcula">
+<scheme name="Nord" version="142">
   <metaInfo>
     <property name="created">2016-09-24T21:08:20</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.3.0.0</property>
-    <property name="modified">2019-12-02T09:34:36</property>
+    <property name="modified">2020-02-10T21:10:00</property>
     <property name="originalScheme">Nord</property>
   </metaInfo>
   <colors>
@@ -1099,9 +1099,43 @@
     </option>
     <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+      </value>
+    </option>
+        <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+      </value>
+    </option>
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
