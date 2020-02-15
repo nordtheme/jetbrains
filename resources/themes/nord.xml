@@ -58,6 +58,8 @@
     <option name="SELECTED_TEARLINE_COLOR" value="434c5e" />
     <option name="SELECTION_BACKGROUND" value="434c5e" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4c566a" />
+    <option name="TAB_UNDERLINE" value="88c0d0" />
+    <option name="TAB_UNDERLINE_INACTIVE" value="616e88" />
     <option name="TEARLINE_COLOR" value="4c566a" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="3b4252" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3b4252" />
@@ -4460,6 +4462,18 @@
     <option name="String">
       <value>
         <option name="FOREGROUND" value="a3be8c" />
+      </value>
+    </option>
+    <option name="TAB_SELECTED">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+        <option name="BACKGROUND" value="4c566a" />
+      </value>
+    </option>
+    <option name="TAB_SELECTED_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+        <option name="BACKGROUND" value="3b4252" />
       </value>
     </option>
     <option name="TAG_ATTR_KEY">
