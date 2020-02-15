@@ -8,6 +8,115 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.11.0
+
+![Release Date: 2020-02-15](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-15&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/15) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/12)
+
+This version focused on fixing "random highlighting breakages" partially caused by changed in version 0.10.0, but also includes support for new editor scheme keys.
+
+## Features
+
+**Support new selected and inactive tab highlighting editor scheme keys** — #126 ⇄ #130 (⊶ a70716e9) by [@Tom1206][gh-user-tom1206] (reported in [#120][gh-120#585628215])
+↠ Selected and inactive tabs were previously styled using the corresponding `ui.EditorTabs.*` UI theme keys. Some of these keys are now deprecated or marked as „unknown” to the UI theme scheme validator. The highlighting is now controlled using the new `TAB_SELECTED` and `TAB_SELECTED_INACTIVE` editor color scheme keys added to the IDE platform core code in [JetBrains/intellij-community@bf26eb8e][].
+
+Even through this might indicate some inconsistency between the UI theme API and editor color scheme API, both new editor scheme keys have been added using the same colors like the UI theme keys in order to style tabs correctly again.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74590939-9acdca00-5013-11ea-81fe-3178c16b7758.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74590938-9a353380-5013-11ea-8840-0086cef43002.png" />
+</div>
+
+**Support background color styling of "diff" UI separator** — #128 ⇄ #132 (⊶ 5116bb8e) by [@Tom1206][gh-user-tom1206] (reported in [#120][gh-120#585635441])
+↠
+
+The ["diff" UI][jb-doc-diffing] renders a line to separate the different sections of a patch/diff that was added to the IDE platform core code in [jetbrains/intellij-community@f8de2a58][].
+In order to style the elements the `DIFF_SEPARATORS_BACKGROUND` editor scheme key has been added using `nord3` as background color.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591083-1da35480-5015-11ea-95ef-e8e4449baca9.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591082-1d0abe00-5015-11ea-8d32-d9f886faec21.png" />
+</div>
+
+**Support highlighting of line number on caret row** — #122 ⇄ #133 (⊶ 074e0e81)
+↠ Previously the line number on the current caret row was highlighted with the same color (`nord3`) like all other line numbers. This has been changed to use `nord4` instead for lines with active caret(s) by adding support for the `LINE_NUMBER_ON_CARET_ROW_COLOR` editor scheme key that was added to the IDE platform core code in [jetbrains/intellij-community@8641fedd][].
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591169-e71a0980-5015-11ea-82ba-31a3ef904ae7.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591168-e6817300-5015-11ea-8253-e6ccb75b9116.png" />
+</div>
+
+**Support highlighting of selected indent guide** — #123 ⇄ #134 (⊶ 6879a656)
+↠ Previously the selected indent guide was not highlighted differently like non-selected guides (`nord3`). This has been changed to use the same color like comments (`nord3` with increased brightness) instead by adding support for the `SELECTED_INDENT_GUIDE` editor scheme key that was added to the IDE platform core code in [jetbrains/intellij-community@7e3a238c][].
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591263-bf777100-5016-11ea-893d-73abf3118f4f.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591262-bededa80-5016-11ea-946e-5f49fcefc7c3.png" />
+</div>
+
+**Support highlighting of selected indent guide** — #124 ⇄ #135 (⊶ 44ee42e0)
+↠ Previously only the `INDENT_GUIDE` editor scheme key was supported and defined, but not the `VISUAL_INDENT_GUIDE` key that was added to the IDE platform core code in [jetbrains/intellij-community@2a178666][].
+Since both UI elements are almost the same, the new key also uses `nord3` as foreground color.
+
+**Support new editor scheme key for runtime errors** — #127 ⇄ #131 (related to #120) (⊶ 7e21b748)
+↠ In [jetbrains/intellij-community@6fb72d02][], the new `RUNTIME_ERROR` editor scheme key was added to the IDE platform core code to highlight runtime errors.
+The new key has been added using `nord11` as foreground color.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591004-42e39300-5014-11ea-8d1a-75f92279ae29.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591003-424afc80-5014-11ea-819b-440314c66675.png" />
+</div>
+
+**Support highlighting of separator lines between editor and breadcrumbs** — #125 ⇄ #136 (⊶ 3428e87a)
+↠ Previously the `SEPARATOR_ABOVE_COLOR` and `SEPARATOR_BELOW_COLOR` editor scheme keys, which were added to the IDE platform code in [jetbrains/intellij-community@dda11912][], were not defined explicitly which made them inherit color values from other keys. They have been defined explicitly using `nord3` as foreground color to ensure style consistency across IDE version updates.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/74591406-02861400-5018-11ea-9759-d92f3f345073.png" />
+</div>
+
+## Improvements
+
+**Replaced all color inheritances with explicit definitions** — #121 (related to #69, #70, #77, #78, #108, #109, #115, #117, #119, #120) (⊶ 2d8b341f)
+↠ Implemented a workaround documented in #120 to prevent more "random" color style breakages by replacing all editor color scheme keys that inherited values from other keys with the explicit style definitions instead.
+This caused the code size of the editor scheme to increase drastically due to repeated styles, but is currently the only way to work around non-working style inheritance in the IDE theme API.
+
+## Bug Fixes
+
+**Restored removed `parent_scheme` attribute** — #120, #129, #119 ⇄ #137 (⊶ b74dc7e5)
+↠ In #117, the `parent_scheme` attribute was removed since it was suspected that it caused „random highlighting breakages” that are documented in detail in #120.
+
+Anyway, contrary to the presumption that the attribute is not required, it caused syntax elements of many different languages to ignore some colors defined by the Nord plugin, like e.g. _markup_ elements in (documentation) comments, strings in PHP (#119), data flow control characters like braces in TypeScript/JavaScript and even UI elements like tabs. See feedback comments of [@Tom1206][gh-user-tom1206] and [@yuru7][gh-user-yuru7] in #120 for more examples.
+The „hardcoded“ color `#808080` was used for all these elements instead that is used in [different places in the IDE core platform code][jetbrains/intellij-community-search-808080]. It was not possible to fix these elements using the available editor scheme keys.
+
+By simply adding back the `parent_scheme` attribute with the `Darcula` value all these elements now "magically" using the colors defined by Nord again instead of `#808080`. It is a strange behavior that this attribute is required for almost no reason, but it has been added back again to fix the massive style problems occurred as of [Nord plugin version 0.10.0][gh-rel-v0.10.0] in combination with [the latest IDE versions 2019.3.3][jb-blog-announce-2019.3.3] (that was released on the same day like the plugin update…).
+
+<div align="center">
+  <h3>Data Flow Controls</h3>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591521-fbabd100-5018-11ea-8278-99f7595ba1ae.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591518-fa7aa400-5018-11ea-8077-a26d62c7bd74.png" />
+  <h3>Markup Elements</h3>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591524-fc446780-5018-11ea-95da-ff5a52cb5831.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591520-fb133a80-5018-11ea-9eb9-d7521ac69783.png" />
+  <h3>JSON</h3>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591522-fbabd100-5018-11ea-90ed-8cb99899f045.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74591519-fb133a80-5018-11ea-991e-246888ff2965.png" />
+</div>
+
 # 0.10.0
 
 ![Release Date: 2020-02-11](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-11&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/14) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/11)
@@ -55,10 +164,10 @@ This problem is now fixed by changing the color of the corresponding UI theme ke
 These elements are now using explicitly defined colors instead to fix the highlighting.
 
 <div align="center">
-	<p><strong>Before</strong></p>
-	<img src="https://user-images.githubusercontent.com/7836623/74188692-3f848c00-4c4f-11ea-88af-de1b774d687b.png" />
-	<p><strong>After</strong></p>
-	<img src="https://user-images.githubusercontent.com/7836623/74188691-3eebf580-4c4f-11ea-9782-5cf27bbe41f9.png" />
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74188692-3f848c00-4c4f-11ea-88af-de1b774d687b.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74188691-3eebf580-4c4f-11ea-9782-5cf27bbe41f9.png" />
 </div>
 
 # 0.9.0
@@ -600,6 +709,7 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 <!-- Shared Links-->
 
 [gh-user-alekc]: https://github.com/alekc
+[gh-user-tom1206]: https://github.com/Tom1206
 
 <!-- v0.4.0 -->
 
@@ -653,6 +763,7 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 
 <!-- v0.9.0 -->
 
+[gh-70]: https://github.com/arcticicestudio/nord-jetbrains/issues/70
 [gh-user-n1kk]: https://github.com/n1kk
 [jb-goland-rln-2019.3#code-editing]: https://www.jetbrains.com/go/whatsnew/#v2019-3-code-editing
 [jb-rln-2019.3]: https://www.jetbrains.com/idea/whatsnew/#v2019-3
@@ -661,8 +772,24 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 
 [gh-user-cjkent]: https://github.com/cjkent
 [gh-user-mariojackson]: https://github.com/mariojackson
-[gh-user-tom1206]: https://github.com/Tom1206
 [jb-doc-completion#config]: https://www.jetbrains.com/help/idea/auto-completing-code.html#configure-code-completion
 [jb-doc-completion#invoke_base]: https://www.jetbrains.com/help/idea/auto-completing-code.html#invoke-basic-completion
 [jetbrains/intellij-community-abs_cls#l311]: https://github.com/JetBrains/intellij-community/blob/4491058316bab4162d2ee0a926ac65553b56e6a5/platform/editor-ui-ex/src/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.java#L311-L313
 [jetbrains/intellij-community-search-parent_scheme]: https://github.com/JetBrains/intellij-community/search?p=2&q=parent_scheme&unscoped_q=parent_scheme
+
+<!-- 0.11.0 -->
+
+[gh-120#585628215]: https://github.com/arcticicestudio/nord-jetbrains/issues/120#issuecomment-585628215
+[gh-120#585635441]: https://github.com/arcticicestudio/nord-jetbrains/issues/120#issuecomment-585635441
+[gh-rel-v0.10.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.10.0
+[gh-user-yuru7]: https://github.com/yuru7
+[jb-blog-announce-2019.3.3]: https://blog.jetbrains.com/idea/2020/02/intellij-idea-2019-3-3-is-out
+[jb-doc-diffing]: https://www.jetbrains.com/help/idea/comparing-files-and-folders.html
+[jetbrains/intellij-community-search-808080]: https://github.com/JetBrains/intellij-community/search?q=808080&unscoped_q=808080
+[jetbrains/intellij-community@2a178666]: https://github.com/JetBrains/intellij-community/commit/2a1786665813328712d6e8d4ebbd211a90a8f97c
+[jetbrains/intellij-community@6fb72d02]: https://github.com/JetBrains/intellij-community/commit/6fb72d02b211ca8b0f6c899c8b48560fa98d1bed
+[jetbrains/intellij-community@7e3a238c]: https://github.com/JetBrains/intellij-community/commit/7e3a238cfa1d68abe99af6aac3cd84aa30736844
+[jetbrains/intellij-community@8641fedd]: https://github.com/JetBrains/intellij-community/commit/8641fedd42bce2a5118371eab68fe6259573406d
+[jetbrains/intellij-community@bf26eb8e]: https://github.com/JetBrains/intellij-community/commit/bf26eb8ec1b95aad5db530447922336556408597
+[jetbrains/intellij-community@dda11912]: https://github.com/JetBrains/intellij-community/commit/dda119126a8d039fbff92d8961aaf9a67a237206
+[jetbrains/intellij-community@f8de2a58]: https://github.com/JetBrains/intellij-community/commit/f8de2a58d62e66923fd9f7158496030ad414bb62
