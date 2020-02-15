@@ -49,6 +49,7 @@
     <option name="HTML_TAG_TREE_LEVEL5" value="" />
     <option name="INDENT_GUIDE" value="4c566a" />
     <option name="INFORMATION_HINT" value="434c5e" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="d8dee9" />
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
     <option name="METHOD_SEPARATORS_COLOR" value="d8dee9" />
     <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
@@ -56,6 +57,7 @@
     <option name="QUESTION_HINT" value="434c5e" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="4c566a" />
+    <option name="SELECTED_INDENT_GUIDE" value="616e88" />
     <option name="SELECTED_TEARLINE_COLOR" value="434c5e" />
     <option name="SELECTION_BACKGROUND" value="434c5e" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4c566a" />
@@ -69,7 +71,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="3b4252" />
     <option name="WHITESPACES" value="4c566a" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ebcb8b" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="d8dee9" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
