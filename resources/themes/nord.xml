@@ -1,4 +1,4 @@
-<scheme name="Nord" version="142">
+<scheme name="Nord" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2016-09-24T21:08:20</property>
     <property name="ide">idea</property>
