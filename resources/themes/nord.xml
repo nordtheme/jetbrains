@@ -66,6 +66,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="3b4252" />
     <option name="WHITESPACES" value="4c566a" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ebcb8b" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="d8dee9" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
