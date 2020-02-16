@@ -8,6 +8,22 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.11.1
+
+![Release Date: 2020-02-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/16) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/13)
+
+## Bug Fixes
+
+**"Pinkish" editor & breadcrumbs separator line color** — #138 ⇄ #139 (⊶ e029b551) by [@Tom1206][gh-user-tom1206]
+↠ Fixed the color of the editor & breadcrumbs separator line (introduced in #125, #136) to use the correct color `nord3` instead of the pinkish ”test color“ that is only used during development to quickly identify UI and syntax elements that are affected by a specific theme color key.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74600789-a0b8bf00-5096-11ea-9434-7a1f72887674.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74600787-a0202880-5096-11ea-832d-23206bd3168c.png" />
+</div>
+
 # 0.11.0
 
 ![Release Date: 2020-02-15](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-15&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/15) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/12)
