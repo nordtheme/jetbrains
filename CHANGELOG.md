@@ -8,6 +8,24 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.11.2
+
+![Release Date: 2020-02-17](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-17&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/17) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/14)
+
+## Bug Fixes
+
+**Highlighting of "injected language fragments" is overridden** — #140 ⇄ #141 (⊶ 541b3584)
+↠ Before the `INJECTED_LANGUAGE_FRAGMENT` editor color scheme key was set to use `nord10` as foreground that has overwritten any language specific highlighting of ¶injected language fragments“, e.g. when using CSS-in-JS libraries like [styled-components][] through the [“Styled Components & Styled JSX“][jb-plug-styled-components] plugin.
+
+This has been fixed by removing the defined foreground color entirely so the highlighting for the specific languages is uses instead.
+
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74656142-ddb3ad00-518d-11ea-9fa7-48751885d3b2.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/74656139-dd1b1680-518d-11ea-850d-195d671dd51d.png" />
+</div>
+
 # 0.11.1
 
 ![Release Date: 2020-02-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/16) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/13)
@@ -809,3 +827,8 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 [jetbrains/intellij-community@bf26eb8e]: https://github.com/JetBrains/intellij-community/commit/bf26eb8ec1b95aad5db530447922336556408597
 [jetbrains/intellij-community@dda11912]: https://github.com/JetBrains/intellij-community/commit/dda119126a8d039fbff92d8961aaf9a67a237206
 [jetbrains/intellij-community@f8de2a58]: https://github.com/JetBrains/intellij-community/commit/f8de2a58d62e66923fd9f7158496030ad414bb62
+
+<!-- 0.11.2 -->
+
+[jb-plug-styled-components]: plugins.jetbrains.com/plugin/9997-styled-components--styled-jsx
+[styled-components]: https://styled-components.com
