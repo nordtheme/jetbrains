@@ -3967,11 +3967,6 @@
         <option name="FOREGROUND" value="a3be8c" />
       </value>
     </option>
-    <option name="RUBY_INTERPOLATED_STRING">
-      <value>
-        <option name="FOREGROUND" value="ebcb8b" />
-      </value>
-    </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
     <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
