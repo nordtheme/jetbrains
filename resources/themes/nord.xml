@@ -882,6 +882,11 @@
         <option name="FOREGROUND" value="8fbcbb" />
       </value>
     </option>
+    <option name="Clojure Keyword">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
+      </value>
+    </option>
     <option name="Closure braces">
       <value>
         <option name="FOREGROUND" value="eceff4" />
