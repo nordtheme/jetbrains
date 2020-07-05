@@ -1210,14 +1210,14 @@
     <option name="DIFF_INSERTED">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="3e4a59" />
+        <option name="BACKGROUND" value="3f4a5a" />
         <option name="ERROR_STRIPE_COLOR" value="81a1c1" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="53524e" />
+        <option name="BACKGROUND" value="54524f" />
         <option name="ERROR_STRIPE_COLOR" value="ebcb8b" />
       </value>
     </option>
