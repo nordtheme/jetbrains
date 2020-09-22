@@ -8,6 +8,72 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.12.0
+
+![Release Date: 2020-09-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-09-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/18) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/15)
+
+⇅ [Show all commits][repo-compare-tag-v0.11.2_v0.12.0]
+
+## Features
+
+**Explicit support for bundled PhpStorm language syntax** — #120/#121/#151 ⇄ #153 (⊶ 9fa9d9a1)
+
+↠ [PhpStorm][] ships with support for specific languages, frameworks and libraries for PHP development and of course advanced highlighting for [PHP][] itself. Due to the same problems like documented in #120 (mitigated in #121) some syntax theme keys required to be replaced with explicit definitions instead of relying on color inheritances.
+
+Therefore explicit support for PhpStorm's bundled language syntax has been added:
+
+1. Main support for [PHP][] and the [official JetBrains plugin][jb-plug-php]
+2. [Laravel "Blade" Templates][blade]
+   See [JetBrains official “Blade“ documentation][jb-docs-blade] and [the plugin][jb-plug-blade] for more details.
+3. [Twig][] template engine
+   See [JetBrains official “Twig“ documentation][jb-docs-twig] and [the plugin][jb-plug-twig] for more details.
+4. [Smarty][] templates
+   See [JetBrains official “Smarty“ documentation][jb-docs-smarty] for more details.
+
+<div align="center">
+  <p>PHP syntax highlighting</p>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377431-920f3500-889b-11ea-9604-4c1f4fb16919.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377419-8e7bae00-889b-11ea-8c84-a8b569242920.png" />
+</div>
+
+<div align="center">
+  <p>Blade syntax highlighting</p>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377487-a3f0d800-889b-11ea-8082-7f3403a1d3b1.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377486-a3584180-889b-11ea-8ad7-a99f73468552.png" />
+</div>
+
+<div align="center">
+  <p>Twig syntax highlighting</p>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377495-a5ba9b80-889b-11ea-9f8c-714782d3c093.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377492-a5220500-889b-11ea-8d6d-522399c83351.png" />
+</div>
+
+<div align="center">
+  <p>Smarty syntax highlighting</p>
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377491-a4896e80-889b-11ea-942e-e5ed47b402a8.png" />
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/80377490-a4896e80-889b-11ea-8c52-fff7ebe40567.png" />
+</div>
+
+## Improvements
+
+**Cleaner patch/diff highlighting through reduced alpha value for background colors** — #103 ⇄ #159 (⊶ f4529560)
+
+↠ Before the background colors of highlighted sections in the patch/diff view were too bright which caused some syntax elements like comments to be completely illegible. This has now been improved by reducing the alpha value and calculating the RGB hexadecimal value from it.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/54881878-f53ac680-4e54-11e9-8b84-e27e13b5dd34.png" />
+</div>
+
+See the [comment in #159][gh-159-comment-color_calc] for more details about why the color calculation and conversion had to be done.
+
 # 0.11.2
 
 ![Release Date: 2020-02-17](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-17&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/17) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/14)
@@ -656,7 +722,7 @@ This release adds support for the latest IntelliJ IDEA version 2017.2 + features
 
 ![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/2)
 
-This release adds support for the latest IntelliJ IDEA version.  
+This release adds support for the latest IntelliJ IDEA version.
 <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-161616.svg?style=flat-square"/></a>
 
 ## Features
@@ -713,12 +779,20 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 
 <!--
 +------------------+
++ Formatting Notes +
++------------------+
+
+The `<summary />` tag must be separated with a blank line from the actual item content paragraph,
+otherwise Markdown elements are not parsed and rendered!
+
++------------------+
 + Symbol Reference +
 +------------------+
 ↠ (U+21A0): Start of a log section description
 — (U+2014): Separator between a log section title and the metadata
 ⇄ (U+21C4): Separator between a issue ID and pull request ID in a log metadata
 ⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
+⇅ (U+21C5): Icon prefix for the link of the Git commit history comparison on GitHub
 -->
 
 <!--lint disable final-definition-->
@@ -832,3 +906,19 @@ All styles have been optimized to achieve a consistent and uniform coloring acro
 
 [jb-plug-styled-components]: plugins.jetbrains.com/plugin/9997-styled-components--styled-jsx
 [styled-components]: https://styled-components.com
+
+<!-- 0.12.0 -->
+
+[blade]: https://laravel.com/docs/7.x/blade
+[gh-159-comment-color_calc]: https://github.com/arcticicestudio/nord-jetbrains/pull/159#issuecomment-653178090
+[jb-docs-blade]: https://www.jetbrains.com/help/phpstorm/blade-page.html
+[jb-docs-smarty]: https://www.jetbrains.com/help/phpstorm/smarty.html
+[jb-docs-twig]: https://www.jetbrains.com/help/phpstorm/symfony-twig.html
+[jb-plug-blade]: https://plugins.jetbrains.com/plugin/7569-blade
+[jb-plug-php]: https://plugins.jetbrains.com/plugin/6610-php
+[jb-plug-twig]: https://plugins.jetbrains.com/plugin/7303-twig
+[php]: https://www.php.net
+[phpstorm]: https://www.jetbrains.com/phpstorm
+[repo-compare-tag-v0.11.2_v0.12.0]: https://github.com/arcticicestudio/nord-jetbrains/compare/v0.11.2...v0.12.0
+[smarty]: https://www.smarty.net
+[twig]: https://twig.symfony.com
