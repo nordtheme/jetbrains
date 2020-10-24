@@ -8,6 +8,50 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
 
+# 0.13.0
+
+![Release Date: 2020-10-24](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-10-24&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/19) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/16)
+
+⇅ [Show all commits][repo-compare-tag-v0.12.0_v0.13.0]
+
+## Features
+
+<details>
+<summary><strong>Explicit language support for Ruby, RDoc and ERB</strong> — #145 (⊶ fc72e676) by <a href="https://github.com/caleb" target="_blank">@caleb</a></summary>
+
+↠ Added explicit [Ruby][], [RDoc][] and [ERB][wiki-eruby] language support for JetBrains [RubyMine][] and the [official “Ruby" plugin][jb-plug-ruby] for IntelliJ.
+
+<div align="center">
+  <p>Ruby syntax <strong>before</strong></p>
+  <p>
+    <img src="https://user-images.githubusercontent.com/7836623/97083875-849cf280-1613-11eb-86be-c6b0a0b96b50.png" width="888px" />
+</div>
+
+<div align="center">
+  <p>Ruby syntax <strong>after</strong></p>
+  <p>
+    <img src="https://user-images.githubusercontent.com/7836623/97083866-78189a00-1613-11eb-9aae-55b35482af7f.png" width="888px" />
+</div>
+
+<div align="center">
+  <p>
+    <img src="https://user-images.githubusercontent.com/7836623/97083800-ef99f980-1612-11eb-83bd-fce40bacbfab.png" width="888px" />
+</div>
+
+<div align="center">
+  <p>RDoc</p>
+  <p>
+    <img src="https://user-images.githubusercontent.com/7836623/97083693-30ddd980-1612-11eb-98e5-fb0c556e966d.png" width="888px" />
+</div>
+
+<div align="center">
+  <p>ERB</p>
+  <p>
+    <img src="https://user-images.githubusercontent.com/7836623/97083755-98942480-1612-11eb-8a34-ec8789a7cdf2.png" width="888px" />
+</div>
+
+</details>
+
 # 0.12.0
 
 ![Release Date: 2020-09-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-09-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/18) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/15)
@@ -129,9 +173,7 @@ Even through this might indicate some inconsistency between the UI theme API and
 </div>
 
 **Support background color styling of "diff" UI separator** — #128 ⇄ #132 (⊶ 5116bb8e) by [@Tom1206][gh-user-tom1206] (reported in [#120][gh-120#585635441])
-↠
-
-The ["diff" UI][jb-doc-diffing] renders a line to separate the different sections of a patch/diff that was added to the IDE platform core code in [jetbrains/intellij-community@f8de2a58][].
+↠ The ["diff" UI][jb-doc-diffing] renders a line to separate the different sections of a patch/diff that was added to the IDE platform core code in [jetbrains/intellij-community@f8de2a58][].
 In order to style the elements the `DIFF_SEPARATORS_BACKGROUND` editor scheme key has been added using `nord3` as background color.
 
 <div align="center">
@@ -922,3 +964,12 @@ otherwise Markdown elements are not parsed and rendered!
 [repo-compare-tag-v0.11.2_v0.12.0]: https://github.com/arcticicestudio/nord-jetbrains/compare/v0.11.2...v0.12.0
 [smarty]: https://www.smarty.net
 [twig]: https://twig.symfony.com
+
+<!-- 0.12.0 -->
+
+[jb-plug-ruby]: https://plugins.jetbrains.com/plugin/1293-ruby
+[rdoc]: https://github.com/ruby/rdoc
+[repo-compare-tag-v0.12.0_v0.13.0]: https://github.com/arcticicestudio/nord-jetbrains/compare/v0.12.0...v0.13.0
+[ruby]: https://www.ruby-lang.org
+[rubymine]: https://www.jetbrains.com/ruby
+[wiki-eruby]: https://en.wikipedia.org/wiki/ERuby
