@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.arcticicestudio.nord.jetbrains</id>
   <name>Nord</name>
-  <version>0.12.0</version>
+  <version>0.13.0</version>
   <vendor email="development@arcticicestudio.com" url="https://www.arcticicestudio.com">Arctic Ice Studio</vendor>
 
   <description>
