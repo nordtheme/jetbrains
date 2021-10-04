@@ -693,9 +693,9 @@ JetBrains announced a new feature for the platform that allows to [export editor
 
 This feature greatly improves the installation process for Nord regarding the UX and version update handling compared to the manual installation and is the recommended method.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/master/assets/scrot-installation-plugin-browse-repositories.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-installation-plugin-browse-repositories.png" /></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/master/assets/scrot-installation-plugin-search.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-installation-plugin-search.png" /></p>
 
 ### Syntax
 
@@ -803,21 +803,21 @@ This also includes preprocessor language keywords for Sass and LESSCSS like `!de
 
 ## Features
 
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/master/README.md#features) section.
+A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#features) section.
 
-Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains/blob/master/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains/master/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/master/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains/wiki).
+Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains/main/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains/wiki).
 
 **Full support for the community- and ultimate edition!** (@arcticicestudio, #1, eb127486)
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
-![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/master/assets/scrot-lang-java.png)
+![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-lang-java.png)
 
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/master/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains/blob/master/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 <!--
 +------------------+
