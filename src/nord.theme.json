@@ -235,6 +235,9 @@
         "activeBackground": "#434c5e"
       }
     },
+    "PopupMenu": {
+      "background": "#323846"
+    },
     "ProgressBar": {
       "background": "#88c0d0",
       "failedColor": "#bf616a",
