@@ -1,8 +1,12 @@
+<!--
+  References:
+    1. https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html#idea-plugin
+-->
 <idea-plugin>
   <id>com.arcticicestudio.nord.jetbrains</id>
   <name>Nord</name>
   <version>0.13.0</version>
-  <vendor email="development@arcticicestudio.com" url="https://www.arcticicestudio.com">Arctic Ice Studio</vendor>
+  <vendor email="development@svengreb.de" url="https://www.svengreb.de">Sven Greb</vendor>
 
   <description>
     <![CDATA[
@@ -10,7 +14,7 @@
     ]]>
   </description>
 
-  <!-- See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for details.-->
+  <!-- See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for details. -->
   <idea-version since-build="191.0"/>
 
   <!--

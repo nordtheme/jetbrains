@@ -1,16 +1,52 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/jetbrains" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" />
+    </picture>
+  </a>
+</p>
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains"><img src="https://img.shields.io/github/release/arcticicestudio/nord-jetbrains.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+<p align="center">
+  <a href="https://github.com/nordtheme/jetbrains/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/nordtheme/jetbrains.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://www.nordtheme.com/docs/ports/jetbrains" target="_blank">
+    <img src="https://img.shields.io/github/release/nordtheme/jetbrains.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/>
+  </a>
+</p>
 
-<p align="center"><a href="https://www.jetbrains.com/idea/whatsnew/#v2019-1" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=JetBrains%20Products&message=2019.1%2B&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMTcuNyA1NC42TC44IDQxLjJsOC40LTE1LjZMMzMuMyAzNXoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43bC0xLjMgNDAuNUw0MS44IDcwIDI1LjYgNTkuNiA0OS4zIDM1IDM4LjkgMTIuM2w5LjMtMTEuMnoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43TDQ4LjcgNDMuOWwtOS44LTMxLjYgOS4zLTExLjJ6Ii8%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMzMuNyA1OC4xTDUuNiA2OC4zbDQuNS0xNS44TDE2IDMzLjEgMCAyNy43IDEwLjEgMGwyMiAyLjcgMjEuNiAyNC43eiIvPiAgPHBhdGggZD0iTTEzLjcgMTMuNWg0My4ydjQzLjJIMTMuN3oiIGZpbGw9IiM0YzU2NmEiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik0xNy43IDQ4LjZoMTYuMnYyLjdIMTcuN3ptMTEuNy0yNi4ydi0zLjNoLTl2My4zSDIzdjExLjNoLTIuNlYzN2g5di0zLjNoLTIuNVYyMi40ek0zOCAzNy4zYy0xLjQgMC0yLjYtLjMtMy41LS44LS45LS41LTEuNy0xLjItMi4zLTEuOWwyLjUtMi44Yy41LjYgMSAxIDEuNSAxLjMuNS4zIDEuMS41IDEuNy41LjcgMCAxLjMtLjIgMS44LS43LjQtLjUuNi0xLjIuNi0yLjNWMTkuMWg0djExLjdjMCAxLjEtLjEgMi0uNCAyLjgtLjMuOC0uNyAxLjQtMS4zIDItLjUuNS0xLjIgMS0yIDEuMi0uOC4zLTEuNi41LTIuNi41Ii8%2BPC9zdmc%2B"/></a></p>
+<p align="center">
+  <a href="https://github.com/nordtheme/nord/releases/tag/v0.2.0" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACUklEQVRIibXUQUiTcRjH8e+zvaO0AgPd1mDmNvFVI+ng1UNU1wiDoEIIoUNUdOkQUkER1KWTnRJCLyZBIdEhQvAWQVp5KN9X3bskmHunYbeZbu/TaWXRdOLrc3ue5/f/f/6nP+xwycy8m6y0LGqg0N7UsLB+9jmdbQwZQaNawPBKpCstA3g/7fRCl5k68P7PLNjplRgBQtUAYjmuCriqDP690RqQK8A3WSt1mmZsqbyyM+4pVc5tcvdxYD+W46qVdif/l7Ac95bluGo57piqBqt58e+zaXfSclwNbBQyE+F7KKPAMTuzeGcrQLk2BEREV41dvYAD2jeddrt9BQA6DtYtC3QDKyIM2pmlVl+Bublc2ExGpgS9BuxTLT2byuX2+AYUJTAyPq6GmYwOIPoEOLy7IAO+AYgejTW5dwF2UbiM8kGVs9NO/qo/AGRV5Ybl5E4mEokVT0rdwHdBH9pOvmvbgCd6GlgDGZqddVPtydg8aC9gKDqybaA9EX2nyHWgrhTkxUQ2W9uajL4U0QdAbNsAQFsy3C8wBHTsXQk+BmhpitwE3vgCANSGVi8pfATO207uooh4hqc9vgHxeLzgeXIG+KFIv5Ve7GxujuZ9AwAONYfnVLUHCCHec9vO1vsKALSloq9A7gONhILDm/2yWwYAzETDbeC1wgk7k+/bKCuW4yqwDIxtGBSGzURktNzbdrZeQ8EJIA76CJXCP/kLCpEyUE2VVLWnLRV9Wh7MZPJHPNW3QE2lQ0YgSKpKgLWiV1zftyTCn758XUwZ4lUEdrx+ASW88rx2UJY8AAAAAElFTkSuQmCC&label=Nord&message=v0.2.0&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/arcticicestudio/styleguide-javascript/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-javascript.svg?style=flat-square&label=JavaScript%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=javascript"/>
+  </a>
+  <a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Markdown%20Style%20Guide&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/>
+  </a>
+  <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.jetbrains.com/idea/whatsnew/#v2019-1" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=JetBrains%20Products&message=2019.1%2B&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMTcuNyA1NC42TC44IDQxLjJsOC40LTE1LjZMMzMuMyAzNXoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43bC0xLjMgNDAuNUw0MS44IDcwIDI1LjYgNTkuNiA0OS4zIDM1IDM4LjkgMTIuM2w5LjMtMTEuMnoiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik03MCAxOC43TDQ4LjcgNDMuOWwtOS44LTMxLjYgOS4zLTExLjJ6Ii8%2BICA8cGF0aCBmaWxsPSIjZWNlZmY0IiBkPSJNMzMuNyA1OC4xTDUuNiA2OC4zbDQuNS0xNS44TDE2IDMzLjEgMCAyNy43IDEwLjEgMGwyMiAyLjcgMjEuNiAyNC43eiIvPiAgPHBhdGggZD0iTTEzLjcgMTMuNWg0My4ydjQzLjJIMTMuN3oiIGZpbGw9IiM0YzU2NmEiLz4gIDxwYXRoIGZpbGw9IiNlY2VmZjQiIGQ9Ik0xNy43IDQ4LjZoMTYuMnYyLjdIMTcuN3ptMTEuNy0yNi4ydi0zLjNoLTl2My4zSDIzdjExLjNoLTIuNlYzN2g5di0zLjNoLTIuNVYyMi40ek0zOCAzNy4zYy0xLjQgMC0yLjYtLjMtMy41LS44LS45LS41LTEuNy0xLjItMi4zLTEuOWwyLjUtMi44Yy41LjYgMSAxIDEuNSAxLjMuNS4zIDEuMS41IDEuNy41LjcgMCAxLjMtLjIgMS44LS43LjQtLjUuNi0xLjIuNi0yLjNWMTkuMWg0djExLjdjMCAxLjEtLjEgMi0uNCAyLjgtLjMuOC0uNyAxLjQtMS4zIDItLjUuNS0xLjIgMS0yIDEuMi0uOC4zLTEuNi41LTIuNi41Ii8%2BPC9zdmc%2B"/>
+  </a>
+</p>
 
 <!--lint disable no-duplicate-headings-->
 
-<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme</p>
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">Nord JetBrains</a> — An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme.</p>
 
 # 0.13.0
 
-![Release Date: 2020-10-24](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-10-24&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/19) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/16)
+![Release Date: 2020-10-24](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-10-24&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/16)
 
 ⇅ [Show all commits][repo-compare-tag-v0.12.0_v0.13.0]
 
@@ -54,7 +90,7 @@
 
 # 0.12.0
 
-![Release Date: 2020-09-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-09-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/18) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/15)
+![Release Date: 2020-09-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-09-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/15)
 
 ⇅ [Show all commits][repo-compare-tag-v0.11.2_v0.12.0]
 
@@ -120,7 +156,7 @@ See the [comment in #159][gh-159-comment-color_calc] for more details about why 
 
 # 0.11.2
 
-![Release Date: 2020-02-17](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-17&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/17) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/14)
+![Release Date: 2020-02-17](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-17&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.2&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/14)
 
 ## Bug Fixes
 
@@ -131,14 +167,18 @@ This has been fixed by removing the defined foreground color entirely so the hig
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74656142-ddb3ad00-518d-11ea-9fa7-48751885d3b2.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74656142-ddb3ad00-518d-11ea-9fa7-48751885d3b2.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74656139-dd1b1680-518d-11ea-850d-195d671dd51d.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74656139-dd1b1680-518d-11ea-850d-195d671dd51d.png" />
+  </picture>
 </div>
 
 # 0.11.1
 
-![Release Date: 2020-02-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/16) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/13)
+![Release Date: 2020-02-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/13)
 
 ## Bug Fixes
 
@@ -147,14 +187,18 @@ This has been fixed by removing the defined foreground color entirely so the hig
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74600789-a0b8bf00-5096-11ea-9434-7a1f72887674.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74600789-a0b8bf00-5096-11ea-9434-7a1f72887674.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74600787-a0202880-5096-11ea-832d-23206bd3168c.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74600787-a0202880-5096-11ea-832d-23206bd3168c.png" />
+  </picture>
 </div>
 
 # 0.11.0
 
-![Release Date: 2020-02-15](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-15&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/15) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/12)
+![Release Date: 2020-02-15](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-15&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/12)
 
 This version focused on fixing "random highlighting breakages" partially caused by changed in version 0.10.0, but also includes support for new editor scheme keys.
 
@@ -167,9 +211,13 @@ Even through this might indicate some inconsistency between the UI theme API and
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74590939-9acdca00-5013-11ea-81fe-3178c16b7758.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74590939-9acdca00-5013-11ea-81fe-3178c16b7758.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74590938-9a353380-5013-11ea-8840-0086cef43002.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74590938-9a353380-5013-11ea-8840-0086cef43002.png" />
+  </picture>
 </div>
 
 **Support background color styling of "diff" UI separator** — #128 ⇄ #132 (⊶ 5116bb8e) by [@Tom1206][gh-user-tom1206] (reported in [#120][gh-120#585635441])
@@ -178,9 +226,13 @@ In order to style the elements the `DIFF_SEPARATORS_BACKGROUND` editor scheme ke
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591083-1da35480-5015-11ea-95ef-e8e4449baca9.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591083-1da35480-5015-11ea-95ef-e8e4449baca9.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591082-1d0abe00-5015-11ea-8d32-d9f886faec21.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591082-1d0abe00-5015-11ea-8d32-d9f886faec21.png" />
+  </picture>
 </div>
 
 **Support highlighting of line number on caret row** — #122 ⇄ #133 (⊶ 074e0e81)
@@ -188,9 +240,13 @@ In order to style the elements the `DIFF_SEPARATORS_BACKGROUND` editor scheme ke
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591169-e71a0980-5015-11ea-82ba-31a3ef904ae7.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591169-e71a0980-5015-11ea-82ba-31a3ef904ae7.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591168-e6817300-5015-11ea-8253-e6ccb75b9116.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591168-e6817300-5015-11ea-8253-e6ccb75b9116.png" />
+  </picture>
 </div>
 
 **Support highlighting of selected indent guide** — #123 ⇄ #134 (⊶ 6879a656)
@@ -198,9 +254,13 @@ In order to style the elements the `DIFF_SEPARATORS_BACKGROUND` editor scheme ke
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591263-bf777100-5016-11ea-893d-73abf3118f4f.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591263-bf777100-5016-11ea-893d-73abf3118f4f.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591262-bededa80-5016-11ea-946e-5f49fcefc7c3.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591262-bededa80-5016-11ea-946e-5f49fcefc7c3.png" />
+  </picture>
 </div>
 
 **Support highlighting of selected indent guide** — #124 ⇄ #135 (⊶ 44ee42e0)
@@ -213,16 +273,22 @@ The new key has been added using `nord11` as foreground color.
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591004-42e39300-5014-11ea-8d1a-75f92279ae29.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591004-42e39300-5014-11ea-8d1a-75f92279ae29.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591003-424afc80-5014-11ea-819b-440314c66675.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591003-424afc80-5014-11ea-819b-440314c66675.png" />
+  </picture>
 </div>
 
 **Support highlighting of separator lines between editor and breadcrumbs** — #125 ⇄ #136 (⊶ 3428e87a)
 ↠ Previously the `SEPARATOR_ABOVE_COLOR` and `SEPARATOR_BELOW_COLOR` editor scheme keys, which were added to the IDE platform code in [jetbrains/intellij-community@dda11912][], were not defined explicitly which made them inherit color values from other keys. They have been defined explicitly using `nord3` as foreground color to ensure style consistency across IDE version updates.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/7836623/74591406-02861400-5018-11ea-9759-d92f3f345073.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591406-02861400-5018-11ea-9759-d92f3f345073.png" />
+  </picture>
 </div>
 
 ## Improvements
@@ -244,24 +310,36 @@ By simply adding back the `parent_scheme` attribute with the `Darcula` value all
 <div align="center">
   <h3>Data Flow Controls</h3>
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591521-fbabd100-5018-11ea-8278-99f7595ba1ae.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591521-fbabd100-5018-11ea-8278-99f7595ba1ae.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591518-fa7aa400-5018-11ea-8077-a26d62c7bd74.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591518-fa7aa400-5018-11ea-8077-a26d62c7bd74.png" />
+  </picture>
   <h3>Markup Elements</h3>
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591524-fc446780-5018-11ea-95da-ff5a52cb5831.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591524-fc446780-5018-11ea-95da-ff5a52cb5831.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591520-fb133a80-5018-11ea-9eb9-d7521ac69783.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591520-fb133a80-5018-11ea-9eb9-d7521ac69783.png" />
+  </picture>
   <h3>JSON</h3>
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591522-fbabd100-5018-11ea-90ed-8cb99899f045.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591522-fbabd100-5018-11ea-90ed-8cb99899f045.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74591519-fb133a80-5018-11ea-991e-246888ff2965.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74591519-fb133a80-5018-11ea-991e-246888ff2965.png" />
+  </picture>
 </div>
 
 # 0.10.0
 
-![Release Date: 2020-02-11](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-11&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/14) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/11)
+![Release Date: 2020-02-11](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-02-11&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/11)
 
 This version mainly focused on fixing some visual and usability bugs.
 
@@ -290,9 +368,13 @@ This problem is now fixed by changing the color of the corresponding UI theme ke
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74231745-9037cb80-4cc7-11ea-8695-cce2133da556.gif" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74231745-9037cb80-4cc7-11ea-8695-cce2133da556.gif" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74231693-7302fd00-4cc7-11ea-84f9-17bb23175407.gif" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74231693-7302fd00-4cc7-11ea-84f9-17bb23175407.gif" />
+  </picture>
 </div>
 
 **Wrong Type- and JavaScript highlighting inherited from parent scheme** — #116 ⇄ #115 (⊶ 061fd42b) by [@mariojackson][gh-user-mariojackson] and [@Tom1206][gh-user-tom1206]
@@ -307,14 +389,18 @@ These elements are now using explicitly defined colors instead to fix the highli
 
 <div align="center">
   <p><strong>Before</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74188692-3f848c00-4c4f-11ea-88af-de1b774d687b.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74188692-3f848c00-4c4f-11ea-88af-de1b774d687b.png" />
+  </picture>
   <p><strong>After</strong></p>
-  <img src="https://user-images.githubusercontent.com/7836623/74188691-3eebf580-4c4f-11ea-9782-5cf27bbe41f9.png" />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/74188691-3eebf580-4c4f-11ea-9782-5cf27bbe41f9.png" />
+  </picture>
 </div>
 
 # 0.9.0
 
-![Release Date: 2019-12-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/13) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/10)
+![Release Date: 2019-12-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.9.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/10)
 
 This version mainly focused on supporting the [latest JetBrains product versions 2019.3][jb-rln-2019.3] that again changed the [default syntax highlighting for Go code editing][jb-goland-rln-2019.3#code-editing].
 
@@ -323,11 +409,23 @@ This version mainly focused on supporting the [latest JetBrains product versions
 **No italic font for RegEx braces and brackets** — #107 ⇄ #111 (⊶ 2e3d4114) by [@n1kk][gh-user-n1kk]
 ↠ Previously the font style for braces and brackets in regular expression were _italic_ that has been changed to use a normal style. This makes it look way cleaner and less distracting especially when it is mixed with different RegEx elements.
 
-<div align="center"><p><strong>Before</strong></p></div>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/70891834-58264c00-1fe8-11ea-8ff8-c55c2b3cb162.png"/></p>
+<div align="center">
+  <p><strong>Before</strong></p>
+</div>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/70891834-58264c00-1fe8-11ea-8ff8-c55c2b3cb162.png"/>
+  </picture>
+</p>
 
-<div align="center"><p><strong>After</strong></p></div>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/70891833-58264c00-1fe8-11ea-9f27-a7b90a411ff4.png"/></p>
+<div align="center">
+  <p><strong>After</strong></p>
+</div>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/70891833-58264c00-1fe8-11ea-9f27-a7b90a411ff4.png"/>
+  </picture>
+</p>
 
 ## Bug Fixes
 
@@ -336,14 +434,22 @@ This version mainly focused on supporting the [latest JetBrains product versions
 Unfortunately this resulted again in a change for existing theme definition where some editor color scheme keys that previously inherited the best matching global key now used the attributes defined by the parent theme _Darcula_. Therefore Nord's highlighting for Go broke again and required to explicitly define the values for some attributes in order to achieve the same highlight like in previous versions that are matching Nord's style guidelines.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" />
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" />
+  </picture>
+</p>
 
 # 0.8.1
 
-![Release Date: 2019-08-03](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-03&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/12) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/9)
+![Release Date: 2019-08-03](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-03&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.1&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/9)
 
 This version fixed a high priority bug that affected the essential „Completion Popup“ UI component were none of the list items were visible as long as the popup has not been focused.
 
@@ -355,14 +461,22 @@ This version fixed a high priority bug that affected the essential „Completion
 The key has been removed so the popup is equal like in the focused state for better readable text and easy recognition of the desired auto completion entry.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62409939-e3291b80-b5de-11e9-8367-53670c0ca0f1.gif" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62409939-e3291b80-b5de-11e9-8367-53670c0ca0f1.gif" />
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62410003-01434b80-b5e0-11e9-9328-4aa120b2eb01.gif" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62410003-01434b80-b5e0-11e9-9328-4aa120b2eb01.gif" />
+  </picture>
+</p>
 
 # 0.8.0
 
-![Release Date: 2019-08-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/11) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/8)
+![Release Date: 2019-08-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.8.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/8)
 
 This version mainly focused on supporting the [latest JetBrains product versions 2019.2][jb-rln-2019.2] that introduced some breaking changes for UI theme keys and the [changes in Go's syntax highlighting for the default bundled color schemes][jb-goland-rln-2019.2#colorscheme].
 
@@ -373,10 +487,18 @@ This version mainly focused on supporting the [latest JetBrains product versions
 Unfortunately this resulted in a change for existing theme definitions where some editor color scheme keys that previously inherited the best matching global key now used the attributes defined by the parent theme _Darcula_. Therefore Nord's highlighting for Go broke and required to explicitly define the values for some attributes in order to achieve the same highlight like in previous versions that are matching Nord's style guidelines.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62239717-b81fab80-b3d5-11e9-8e17-3b9d7fe3424e.png" />
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62239716-b81fab80-b3d5-11e9-9280-7829faea4370.png" />
+  </picture>
+</p>
 
 **Support 2019.2 deprecation replacement UI theme keys** — #86 ⇄ #87 (⊶ 990c2d25)
 ↠ The latest JetBrains product versions 2019.2 deprecated some UI theme keys in favour of new keys that (can be found through the auto-completion and quick documentation thanks to the also [new `@since` _doc tag_ support for theme schemes][idea-216532]). This broke the styles when using the Nord plugin with the latest product versions due to the missing new keys.
@@ -390,37 +512,77 @@ In order to support both versions `<2019.2` as well as `>=2019.2` the new keys h
 #### Editor Tabs
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307619-35095e80-b484-11e9-9123-2c3142fa4e11.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307619-35095e80-b484-11e9-9123-2c3142fa4e11.png"/>
+  </picture>
+</p>
 <p align="center"><strong>After</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307795-874a7f80-b484-11e9-89a1-d33bb942bab6.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307795-874a7f80-b484-11e9-89a1-d33bb942bab6.png"/>
+  </picture>
+</p>
 
 #### Auto Completion Popup
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307689-566a4a80-b484-11e9-8980-7d4b57e6253c.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307689-566a4a80-b484-11e9-8980-7d4b57e6253c.png"/>
+  </picture>
+</p>
 <p align="center"><strong>After</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307793-86b1e900-b484-11e9-9b60-a4458cc5b12b.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307793-86b1e900-b484-11e9-9b60-a4458cc5b12b.png"/>
+  </picture>
+</p>
 
 #### Debugger Tabs
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307690-566a4a80-b484-11e9-887a-bfb095bb889f.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307690-566a4a80-b484-11e9-887a-bfb095bb889f.png"/>
+  </picture>
+</p>
 <p align="center"><strong>After</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307794-874a7f80-b484-11e9-86b3-336d58053133.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307794-874a7f80-b484-11e9-86b3-336d58053133.png"/>
+  </picture>
+</p>
 
 #### Status Bar Components
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307691-566a4a80-b484-11e9-83f9-d21e90620ff2.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307691-566a4a80-b484-11e9-83f9-d21e90620ff2.png"/>
+  </picture>
+</p>
 <p align="center"><strong>After</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307796-874a7f80-b484-11e9-8414-94a3915842a4.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307796-874a7f80-b484-11e9-8414-94a3915842a4.png"/>
+  </picture>
+</p>
 
 #### Hovering Editor Tabs & Status Bar Components
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307692-566a4a80-b484-11e9-8bee-0426f6b90dab.gif"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307692-566a4a80-b484-11e9-8bee-0426f6b90dab.gif"/>
+  </picture>
+</p>
 <p align="center"><strong>Hovering Editor Tabs & Status Bar Components</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62307797-874a7f80-b484-11e9-9d36-b96216bdcfa4.gif"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62307797-874a7f80-b484-11e9-9d36-b96216bdcfa4.gif"/>
+  </picture>
+</p>
 
 **Console log output** — #73 ⇄ #74 (⊶ b9ab18c4)
 ↠ The JetBrains theme API in version 2019.2 introduced new keys to customize log output in the console that have been added:
@@ -430,19 +592,35 @@ In order to support both versions `<2019.2` as well as `>=2019.2` the new keys h
 - `LOG_VERBOSE_OUTPUT` — syntax color for verbose output using `nord7`
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62275216-cb686080-b441-11e9-9898-2024a8122a51.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62275216-cb686080-b441-11e9-9898-2024a8122a51.png"/>
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62275215-cb686080-b441-11e9-8a35-9070cad89406.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62275215-cb686080-b441-11e9-8a35-9070cad89406.png"/>
+  </picture>
+</p>
 
 **Diagram Theme Support** — #75 ⇄ #76 (⊶ e7dd0707)
 ↠ [JetBrains core product version 2019.2 introduced theme support][idea-207533] for [_Diagrams_][jb-doc-diagrams] in order to prevent unreadable output due to „hardcoded“ color values not matching the currently active UI theme. The available theme keys have been added to better match Nord's style.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62279606-b93ef000-b44a-11e9-9867-ee33692b5f7b.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62279606-b93ef000-b44a-11e9-9867-ee33692b5f7b.png"/>
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62279604-b8a65980-b44a-11e9-9e65-ad8245da7689.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62279604-b8a65980-b44a-11e9-9e65-ad8245da7689.png"/>
+  </picture>
+</p>
 
 **JavaScript syntax highlighting support for product versions 2019.2** — #77 ⇄ #78 (⊶ 7884fd3b)
 ↠ ↠ The JetBrains theme API in version 2019.2 introduced new keys for JavaScript global variables as well as instance functions that have been added:
@@ -452,19 +630,35 @@ In order to support both versions `<2019.2` as well as `>=2019.2` the new keys h
 - `JS.INSTANCE_MEMBER_FUNCTION` — mapped to `DEFAULT_INSTANCE_METHOD`
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62283654-4df91c00-b452-11e9-9c87-1788f9cfb8ce.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62283654-4df91c00-b452-11e9-9c87-1788f9cfb8ce.png"/>
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62283653-4df91c00-b452-11e9-9341-2ea3125d169c.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62283653-4df91c00-b452-11e9-9341-2ea3125d169c.png"/>
+  </picture>
+</p>
 
 **Normal styles for TypeScript "type guarded" variables** — #81 ⇄ #82 (⊶ 48bf488c)
 ↠ Variables for [TypeScript][] that are ["type guarded"][ts-docs-guard_var] previously used a greenish background color inherited from the parent _Darcula_ scheme and have been changed to use the default variables style instead since there is no need to explicitly highlight these syntax elements.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284838-b77a2a00-b454-11e9-85f2-fba1a3f52304.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62284838-b77a2a00-b454-11e9-85f2-fba1a3f52304.png"/>
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284837-b77a2a00-b454-11e9-8eea-d12f2e611a73.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62284837-b77a2a00-b454-11e9-8eea-d12f2e611a73.png"/>
+  </picture>
+</p>
 
 **Normal styles for TypeScript "type guarded" variables** — #35 ⇄ #83 (⊶ 12200f3f)
 ↠ Added support for the [official Python plugin][jb-plug-python] that adds syntax highlighting for Python as well as [Jupyter][] and [Mako Templates][makotemplates] and is equal to the [PyCharm Professional Edition][pycharm].
@@ -472,24 +666,48 @@ In order to support both versions `<2019.2` as well as `>=2019.2` the new keys h
 #### Before
 
 <p align="center"><strong>Python</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292274-6410d780-b466-11e9-968e-3887719ca335.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292274-6410d780-b466-11e9-968e-3887719ca335.png"/>
+  </picture>
+</p>
 
 <p align="center"><strong>Jupyter</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292272-63784100-b466-11e9-9805-d68cac0d32a8.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292272-63784100-b466-11e9-9805-d68cac0d32a8.png"/>
+  </picture>
+</p>
 
 <p align="center"><strong>Mako Templates</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292273-63784100-b466-11e9-88d1-5313754c46be.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292273-63784100-b466-11e9-88d1-5313754c46be.png"/>
+  </picture>
+</p>
 
 #### After
 
 <p align="center"><strong>Python</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292333-7db21f00-b466-11e9-9e2e-2f323e96b7cc.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292333-7db21f00-b466-11e9-9e2e-2f323e96b7cc.png"/>
+  </picture>
+</p>
 
 <p align="center"><strong>Jupyter</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292331-7d198880-b466-11e9-9a5a-beb4bafb1d55.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292331-7d198880-b466-11e9-9a5a-beb4bafb1d55.png"/>
+  </picture>
+</p>
 
 <p align="center"><strong>Mako Templates</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62292332-7db21f00-b466-11e9-93f2-e6526b12d428.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62292332-7db21f00-b466-11e9-93f2-e6526b12d428.png"/>
+  </picture>
+</p>
 
 ## Improvements
 
@@ -500,10 +718,18 @@ In order to support both versions `<2019.2` as well as `>=2019.2` the new keys h
 ↠ The color of Markdown link titles was highlighted with `nord14` and has been changed to `nord8` in order to match Nord's Markdown syntax styles.
 
 <p align="center">Before</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284066-33737280-b453-11e9-9f26-5146eeb3ef62.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62284066-33737280-b453-11e9-9f26-5146eeb3ef62.png"/>
+  </picture>
+</p>
 
 <p align="center">After</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62284065-33737280-b453-11e9-9eaa-658ce5e1350c.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/62284065-33737280-b453-11e9-9eaa-658ce5e1350c.png"/>
+  </picture>
+</p>
 
 **No more editor color scheme font configurations** — #84 ⇄ #85 (⊶ 69942bc7)
 ↠ In previous JetBrains product versions the editor color scheme allowed to provide configurations for the font rendering like the font family and size the user can apply by enabling checkbox through the editor font preferences labelled with „Use color scheme font instead of default“.
@@ -518,7 +744,7 @@ In order to prevent such problems as well as unexpected styles when the color sc
 
 # 0.7.0
 
-![Release Date: 2019-07-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2016-07-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/projects/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-jetbrains/milestone/7)
+![Release Date: 2019-07-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2016-07-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.7.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/jetbrains/milestone/7)
 
 ## Features
 
@@ -526,7 +752,11 @@ In order to prevent such problems as well as unexpected styles when the color sc
 ↠ The “General“ editor scheme section provides a option to style _deprecated symbols that are marked for removal_.
 The new `MARKED_FOR_REMOVAL_ATTRIBUTES` key has been added using a `strikethrough` effect style colorized with `nord11` to draw more attention to such elements.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548762-260e3180-8f54-11e9-90c7-ec5a6a4ce92b.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59548762-260e3180-8f54-11e9-90c7-ec5a6a4ce92b.png">
+  </picture>
+</p>
 
 ## Improvements
 
@@ -538,22 +768,42 @@ Previously `nord4` was used that made the text almost unreadable because by defa
 This has now been changed to use `nord3` making the actual text content readable again.
 
 <p align="center"><strong>Before</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59462569-4c34b400-8e24-11e9-9551-b1cc9a29ce22.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59462569-4c34b400-8e24-11e9-9551-b1cc9a29ce22.png">
+  </picture>
+</p>
 
 <p align="center"><strong>After</strong></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59462619-71c1bd80-8e24-11e9-90a8-fe33f94b08a7.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59462619-71c1bd80-8e24-11e9-90a8-fe33f94b08a7.png">
+  </picture>
+</p>
 
 **Colliding styles for lines with both syntax and code inspection errors** — #60 ⇄ #62 (⊶ e3189d04) by [@mojodna][gh-user-mojodna]
 ↠ A line that contained both a syntax error as well as a _IntelliJ Code Inspection_ (`ERRORS_ATTRIBUTES` editor scheme key) error was unreadable because both error detection scopes/types applied their different highlighting styles resulting in a background and foreground color colorized with `nord11`. This made it impossible to read the text.
 
 <p align="center">Highlighting resulting in unreadable text when combined with error text</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548537-20fbb300-8f51-11e9-98b3-ed48888f4978.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/45/59316741-cfafa300-8c74-11e9-8f9c-cfd85ead65dd.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59548537-20fbb300-8f51-11e9-98b3-ed48888f4978.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/45/59316741-cfafa300-8c74-11e9-8f9c-cfd85ead65dd.png">
+  </picture>
+</p>
 
 Some tests using a opacity of 60% for `nord11` as background color instead resulted in a “dirty redish“ color due to the miy with the base editor background color.
 
 <p align="center">Reduced opacity of 60%</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59513773-d1b77300-8ebb-11e9-95d8-ddb86a988c82.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59513773-d1b77300-8ebb-11e9-95d8-ddb86a988c82.png">
+  </picture>
+</p>
 
 Therefore a better style of highlighting these errors has been designed.
 The new style doesn't make use of a background color at all based on the fact that it is a duplicate highlighting. If there's a syntax error the invalid tokens will be highlighted with `nord11` due to the syntax error so there is no need to additionally colorize the background with `nord11` which is the main reason for the unreadable text.
@@ -561,7 +811,11 @@ The new style doesn't make use of a background color at all based on the fact th
 The new styles for _Code Inspection_ errors has been simplified to use `nord11` as foreground color with a bold underline and the already used error stripe next to the line numbers. This design decision also comes with a change for the “Unknown Symbol“ highlighting (`WRONG_REFERENCES_ATTRIBUTES` color scheme key) that now uses a dotted underline instead to differentiate from the new error styles.
 
 <p align="center">Improved error and <em>Unknown Symbol</em> styles</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/59548550-556f6f00-8f51-11e9-8270-5eff1fc7863a.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/59548550-556f6f00-8f51-11e9-8270-5eff1fc7863a.png">
+  </picture>
+</p>
 
 ## Bug Fixes
 
@@ -572,7 +826,7 @@ The new styles for _Code Inspection_ errors has been simplified to use `nord11` 
 
 # 0.6.0
 
-![Release Date: 2019-05-23](https://img.shields.io/badge/Release_Date-2019--05--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/9) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/6)
+![Release Date: 2019-05-23](https://img.shields.io/badge/Release_Date-2019--05--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/6)
 
 ## Features
 
@@ -582,19 +836,35 @@ Please see the [corresponding issue in the Nord Docs repository][nord-docs#140] 
 
 ###### Landing Page
 
-<p align="center"><a href="https://www.nordtheme.com/ports/jetbrains" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189976-67530080-6f15-11e9-9938-7ad5feb71d13.png" alt="Preview: Nord JetBrains Port Project Landing Page"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">
+    <img src="https://user-images.githubusercontent.com/7836623/57189976-67530080-6f15-11e9-9938-7ad5feb71d13.png" alt="Preview: Nord JetBrains Port Project Landing Page"/>
+  </a>
+</p>
 
 ###### Landing Page Docs
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189922-ba788380-6f14-11e9-8900-11e96ef98b0a.png" alt="Preview: Nord JetBrains Docs Project Landing Page"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/docs/ports/jetbrains" target="_blank">
+    <img src="https://user-images.githubusercontent.com/7836623/57189922-ba788380-6f14-11e9-8900-11e96ef98b0a.png" alt="Preview: Nord JetBrains Docs Project Landing Page"/>
+  </a>
+</p>
 
 ###### Installation & Activation Docs
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189920-ba788380-6f14-11e9-9595-34a3f4effd2d.png" alt="Preview: Nord JetBrains Docs Installation & Activation Page"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/docs/ports/jetbrains/installation" target="_blank">
+    <img src="https://user-images.githubusercontent.com/7836623/57189920-ba788380-6f14-11e9-9595-34a3f4effd2d.png" alt="Preview: Nord JetBrains Docs Installation & Activation Page"/>
+  </a>
+</p>
 
 ###### Development Docs
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/jetbrains/development" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/57189979-6fab3b80-6f15-11e9-9492-e473b244ea36.png" alt="Preview: Nord JetBrains Docs Development Page"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/docs/ports/jetbrains/development" target="_blank">
+    <img src="https://user-images.githubusercontent.com/7836623/57189979-6fab3b80-6f15-11e9-9492-e473b244ea36.png" alt="Preview: Nord JetBrains Docs Development Page"/>
+  </a>
+</p>
 
 ## Improvements
 
@@ -605,15 +875,31 @@ The _File Colors_ are used to distinguish between project files, folders or pack
 
 ###### Before
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237656-f0579d80-7d45-11e9-9d6a-9ae9923299c5.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/58237656-f0579d80-7d45-11e9-9d6a-9ae9923299c5.png">
+  </picture>
+</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237738-1e3ce200-7d46-11e9-8364-6ce1fc8352eb.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/58237738-1e3ce200-7d46-11e9-8364-6ce1fc8352eb.png">
+  </picture>
+</p>
 
 ###### After
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237729-18df9780-7d46-11e9-8092-78aa51fe5837.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/58237729-18df9780-7d46-11e9-8092-78aa51fe5837.png">
+  </picture>
+</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58237667-f5b4e800-7d45-11e9-9fe1-9f40c2328b9e.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/58237667-f5b4e800-7d45-11e9-9fe1-9f40c2328b9e.png">
+  </picture>
+</p>
 
 ## Tasks
 
@@ -622,27 +908,79 @@ The _File Colors_ are used to distinguish between project files, folders or pack
 
 # 0.5.0
 
-![Release Date: 2019-04-23](https://img.shields.io/badge/Release_Date-2019--04--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/8) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/5)
+![Release Date: 2019-04-23](https://img.shields.io/badge/Release_Date-2019--04--23-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/5)
 
 ## Features
 
-<p align="center"><img src="https://camo.githubusercontent.com/b82fdd0ee86ed240793dd94cca072cc18dfef02d/68747470733a2f2f64336e6d7435766c7a756e6f61312e636c6f756466726f6e742e6e65742f696465612f66696c65732f323031392f30332f626c6f674032782d312e706e67" width="600px" /></p>
+<p align="center">
+  <picture>
+    <img src="https://camo.githubusercontent.com/b82fdd0ee86ed240793dd94cca072cc18dfef02d/68747470733a2f2f64336e6d7435766c7a756e6f61312e636c6f756466726f6e742e6e65742f696465612f66696c65732f323031392f30332f626c6f674032782d312e706e67" width="600px" />
+  </picture>
+</p>
 
 **IDE 2019.1 Plugin and UI Theme Transition** — #43 ⇄ #45 (⊶ 18f9989d)
 ↠ As of [IntelliJ IDEA 2019.1][jb-blog-2019.1] it is finally possible to [theme the IDE UI][jb-blog-ui-theme]! Therefore this theme is now a full [IntelliJ Platform SDK][jb-doc-sdk] plugin using [JetBrain's DevKit][jb-doc-devkit] and providing both a [IDE UI][jb-doc-ui-theme] and [editor theme][jb-doc-editor-theme].
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560919-071f9e80-65a6-11e9-8228-1768778bc323.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560920-071f9e80-65a6-11e9-8a61-20a877daafff.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560921-07b83500-65a6-11e9-8a44-092927c070e6.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560922-07b83500-65a6-11e9-9965-b182b886f51a.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560923-07b83500-65a6-11e9-82c3-19642d2d3464.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560924-07b83500-65a6-11e9-9586-e9e153c519a2.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560925-07b83500-65a6-11e9-9f7b-638b0c294d7b.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560926-07b83500-65a6-11e9-8237-0417801ff8b8.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560927-0850cb80-65a6-11e9-886a-4c3975a18381.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560928-0850cb80-65a6-11e9-8a5b-3ace489b1db2.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560929-0850cb80-65a6-11e9-9290-8289442d282c.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/56560930-0850cb80-65a6-11e9-96a6-593e46230d63.png"></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560919-071f9e80-65a6-11e9-8228-1768778bc323.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560920-071f9e80-65a6-11e9-8a61-20a877daafff.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560921-07b83500-65a6-11e9-8a44-092927c070e6.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560922-07b83500-65a6-11e9-9965-b182b886f51a.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560923-07b83500-65a6-11e9-82c3-19642d2d3464.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560924-07b83500-65a6-11e9-9586-e9e153c519a2.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560925-07b83500-65a6-11e9-9f7b-638b0c294d7b.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560926-07b83500-65a6-11e9-8237-0417801ff8b8.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560927-0850cb80-65a6-11e9-886a-4c3975a18381.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560928-0850cb80-65a6-11e9-8a5b-3ace489b1db2.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560929-0850cb80-65a6-11e9-9290-8289442d282c.png">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/56560930-0850cb80-65a6-11e9-96a6-593e46230d63.png">
+  </picture>
+</p>
 
 ### Workflow
 
@@ -682,7 +1020,7 @@ This is now finally the case so the project has been renamed to `nord-jetbrains`
 
 # 0.4.0
 
-![Release Date: 2019-04-18](https://img.shields.io/badge/Release_Date-2019--04--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/4)
+![Release Date: 2019-04-18](https://img.shields.io/badge/Release_Date-2019--04--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/4)
 
 ## Improvements
 
@@ -693,24 +1031,50 @@ JetBrains announced a new feature for the platform that allows to [export editor
 
 This feature greatly improves the installation process for Nord regarding the UX and version update handling compared to the manual installation and is the recommended method.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-installation-plugin-browse-repositories.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/nordtheme/jetbrains/8fceb44a/src/assets/scrot-installation-plugin-browse-repositories.png" />
+  </picture>
+</p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-installation-plugin-search.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/nordtheme/jetbrains/8fceb44a/src/assets/scrot-installation-plugin-search.png" />
+  </picture>
+</p>
 
 ### Syntax
 
 **Comment Color Brightness** — #41 ⇄ #42 (⊶ 04adc7b0)
 ↠ Implemented the increase of the comment color (`nord3`) brightness by 10% from a lightness level of ~35% to ~45%.
 
-➜ **Please see [arcticicestudio/nord#94][] for all details about this design change decision**!
+➜ **Please see [nordtheme/nord#94][] for all details about this design change decision**!
 
-<p align="center"><strong>Before</strong><img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" /></p>
+<p align="center">
+  <strong>Before</strong>
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" />
+  </picture>
+</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902735-76886c80-4eda-11e9-9aa0-41ded647bdb2.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/54902735-76886c80-4eda-11e9-9aa0-41ded647bdb2.png" />
+  </picture>
+</p>
 
-<p align="center"><strong>After</strong><img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" /></p>
+<p align="center">
+  <picture>
+    <strong>After</strong>
+    <img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png" />
+  </picture>
+</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902765-856f1f00-4eda-11e9-9d09-50c89faece43.png" /></p>
+<p align="center">
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/54902765-856f1f00-4eda-11e9-9d09-50c89faece43.png" />
+  </picture>
+</p>
 
 ## Tasks
 
@@ -719,7 +1083,7 @@ This feature greatly improves the installation process for Nord regarding the UX
 **Migration to MIT license** — #29 ⇄ #30 (⊶ 4081f21e)
 ↠ Migrated to the MIT license to adapt to the migration of the main [Nord][] project.
 
-➜ **Please see the [main task ticket][arcticicestudio/nord#55] for all details about this change decision.**
+➜ **Please see the [main task ticket][nordtheme/nord#55] for all details about this change decision.**
 
 **Project renaming to "Nord JetBrains Editor"** — #31 ⇄ #32 (⊶ b2a80df3)
 ↠ The project started with the main indention in my mind to target the [IntelliJ IDEA][intellij] IDE and create a new port project for each IDE from JetBrains, but since all these awesome products are internally based on the IntelliJ engine the color scheme format can be used universally.
@@ -728,7 +1092,7 @@ To clarify the compatibility with all IDEs from JetBrains the project has been r
 
 # 0.3.0
 
-![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/3)
+![Release Date: 2017-10-05](https://img.shields.io/badge/Release_Date-2017--10--05-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/3)
 
 This release adds support for the latest IntelliJ IDEA version 2017.2 + features.
 
@@ -738,44 +1102,70 @@ This release adds support for the latest IntelliJ IDEA version 2017.2 + features
 
 ❯ Implemented a JAR build script for Windows (MSDOS) systems. (@thimma11, #13 #11, 42edcf10)
 
-❯ Added support for the latest IntelliJ IDEA version [2017.2](https://www.jetbrains.com/idea/whatsnew/#v2017-2). (@arcticicestudio, #18 PR #23, c4093579)
+❯ Added support for the latest IntelliJ IDEA version [2017.2](https://www.jetbrains.com/idea/whatsnew/#v2017-2). (@svengreb, #18 PR #23, c4093579)
 
 ## Improvements
 
 ❯ Reduced the transparency for debug- and diff background to increase the legibility since they were too bright making the text unreadable. (@echosa, #10 #24 PR #25, 4669c148)
 
-<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/31133249-3a7664a4-a85f-11e7-931b-f3175893f1fc.png"/><br><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/31133259-400eabce-a85f-11e7-8ba3-0408c3ccd223.png"/></p>
+<p align="center">
+  <strong>Before</strong><br />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/31133249-3a7664a4-a85f-11e7-931b-f3175893f1fc.png"/><br />
+  </picture>
+  <strong>After</strong><br />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/31133259-400eabce-a85f-11e7-8ba3-0408c3ccd223.png"/>
+  </picture>
+</p>
 
 ❯ Removed the background color from identifiers under the caret. The `nord2` background color of the automatic highlighting for identifiers under the caret used the same color as the selection color when marking the identifier via mouse double click which made it impossible for the user to recognize the selection. (@echosa, #10 #26 PR #27, cb39fd3d)
 
-<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/31134633-f36df0be-a862-11e7-8662-be190827fbb4.png"/><br><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/31134652-05e9583c-a863-11e7-96ab-3c81f394034e.png"/></p>
+<p align="center">
+  <strong>Before</strong><br />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/31134633-f36df0be-a862-11e7-8662-be190827fbb4.png"/><br />
+  </picture>
+  <strong>After</strong><br />
+  <picture>
+    <img src="https://user-images.githubusercontent.com/7836623/31134652-05e9583c-a863-11e7-96ab-3c81f394034e.png"/>
+  </picture>
+</p>
 
-❯ Removed italic formatting from doc comments for better legibility. (@arcticicestudio, #15 PR #20, f4ba4377)
+❯ Removed italic formatting from doc comments for better legibility. (@svengreb, #15 PR #20, f4ba4377)
 
-❯ Removed bold formatting from Java constants for better legibility. (@arcticicestudio, #16 PR #21, 586d6644)
+❯ Removed bold formatting from Java constants for better legibility. (@svengreb, #16 PR #21, 586d6644)
 
-❯ Markdown blockquotes and code blocks are now highlighted. (@arcticicestudio, #17 PR #22, 5ce71ca1)
+❯ Markdown blockquotes and code blocks are now highlighted. (@svengreb, #17 PR #22, 5ce71ca1)
 
 ## Bug Fixes
 
-❯ Switched the reversed console _black_- and _white_ ANSI colors. (@arcticicestudio, #14 PR #19, 604eadfc)
+❯ Switched the reversed console _black_- and _white_ ANSI colors. (@svengreb, #14 PR #19, 604eadfc)
 
 # 0.2.0
 
-![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/2)
+![Release Date: 2017-04-16](https://img.shields.io/badge/Release_Date-2017--04--16-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/2)
 
 This release adds support for the latest IntelliJ IDEA version.
 <img src="https://jetbrains.com/_assets/shared/favicons/jetbrains.ico" width=24 height=24/> <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-2017.1.x-161616.svg?style=flat-square"/></a>
 
 ## Features
 
-❯ The breadcrumbs are now styled to fit the theme ambience. (@arcticicestudio, #6, df321b6e)
+❯ The breadcrumbs are now styled to fit the theme ambience. (@svengreb, #6, df321b6e)
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065781/c8c035ee-2215-11e7-951b-d96e9437ef81.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://cloud.githubusercontent.com/assets/7836623/25065781/c8c035ee-2215-11e7-951b-d96e9437ef81.png"/>
+  </picture>
+</p>
 
-❯ Added styles for the _Inline Parameter Hint_ feature. (@arcticicestudio, #8, 63baa4a3)
+❯ Added styles for the _Inline Parameter Hint_ feature. (@svengreb, #8, 63baa4a3)
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065829/934dc2f4-2216-11e7-8557-ca61356dfd36.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://cloud.githubusercontent.com/assets/7836623/25065829/934dc2f4-2216-11e7-8557-ca61356dfd36.png"/>
+  </picture>
+</p>
 
 ## Bug Fixes
 
@@ -784,40 +1174,63 @@ This release adds support for the latest IntelliJ IDEA version.
 ❯ Fixed a bug where all template languages have been using the `italic` font type attribute. (@echosa, #5, 8cf5ef9d)
 Thanks to @pemedina for investigating in finding the cause of this bug.
 
-❯ The color of the CSS keyword `!important` has been fixed to use `nord10` instead of `nord12` with a bold font type. (@arcticicestudio, #7, 9391388c)
+❯ The color of the CSS keyword `!important` has been fixed to use `nord10` instead of `nord12` with a bold font type. (@svengreb, #7, 9391388c)
 This also includes preprocessor language keywords for Sass and LESSCSS like `!default` and `!optional`.
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065784/dd9a2966-2215-11e7-980c-44d6a1e33037.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://cloud.githubusercontent.com/assets/7836623/25065784/dd9a2966-2215-11e7-980c-44d6a1e33037.png"/>
+  </picture>
+</p>
 
-❯ The color of the Sass meta keyword `@extend` has been fixed to use `nord12` instead of `nord9` to adapt the Nord color definition for annotations. (@arcticicestudio, #9, a71fe89c)
+❯ The color of the Sass meta keyword `@extend` has been fixed to use `nord12` instead of `nord9` to adapt the Nord color definition for annotations. (@svengreb, #9, a71fe89c)
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25065785/e1529174-2215-11e7-8022-03c01d38e1ea.png"/></p>
+<p align="center">
+  <picture>
+    <img src="https://cloud.githubusercontent.com/assets/7836623/25065785/e1529174-2215-11e7-8022-03c01d38e1ea.png"/>
+  </picture>
+</p>
 
 ### Documentation
 
-❯ Fixed a typo in the project description. (@arcticicestudio, #4, 78b269ec)
+❯ Fixed a typo in the project description. (@svengreb, #4, 78b269ec)
 
 # 0.1.0
 
-![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-jetbrains/milestone/1)
+![Release Date: 2016-09-24](https://img.shields.io/badge/Release_Date-2016--09--24-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/jetbrains/milestone/1)
 
 ## Features
 
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#features) section.
+A complete list of all implemented features can be found in the [README](https://github.com/nordtheme/jetbrains/blob/main/readme.md#features) section.
 
-Detailed information about [features](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#features), [supported plugins](https://github.com/arcticicestudio/nord-jetbrains/main/README.md#plugins) and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-jetbrains/blob/main/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-jetbrains/wiki).
+Detailed information about [features](https://github.com/nordtheme/jetbrains/blob/main/readme.md#features), [supported plugins](https://github.com/nordtheme/jetbrains/main/readme.md#plugins) and install instructions can be found in the [README](https://github.com/nordtheme/jetbrains/blob/main/readme.md#installation).
 
-**Full support for the community- and ultimate edition!** (@arcticicestudio, #1, eb127486)
+**Full support for the community- and ultimate edition!** (@svengreb, #1, eb127486)
 
 All styles have been optimized to achieve a consistent and uniform coloring across languages.
 
-![](https://raw.githubusercontent.com/arcticicestudio/nord-jetbrains/main/assets/scrot-lang-java.png)
+![](https://raw.githubusercontent.com/nordtheme/jetbrains/c66a47a1/src/assets/scrot-lang-java.png)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
+<p align="center">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced-2x.png 2x" width="100%" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced-2x.png 2x" width="100%" />
+  </picture>
+</p>
 
-<p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
+<p align="center">
+  Copyright &copy; 2016-present <a href="https://www.svengreb.de" target="_blank">Sven Greb</a>
+</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-jetbrains/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center">
+  <a href="https://github.com/nordtheme/jetbrains/blob/main/license" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://www.svengreb.de">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVQ4jcWQvUoDQRRGz52s5IfVIiDWPkGKFFaCIVaGdIagjcFAwICFb7DvIK6QQlNpY2UQLMQVBbEQ0SewFkGbKCQmOzaTJay7/lR+zTAf9xwuF/47Mv45rdezqWEq72v/RWZnHgqOMwDwHMfSj085JSqb6Pu38we7r18E3nqzhmYbsE11rxKsAvhDfQiSM30XYbOw57YDwfnaRl6U3ABWaMNn806H+oGPzBX3d+4UgChZiYBHYBgGsBLoKoAyhR0x9G20Zmpc4P1ZoMQDcwMNclFrdhBKv6M5WWi7ZQGtjEUn35IV4OwnVjSX/WGmKqCDDUa5rmyle3bvGFiMg3WGUsF1u0EXHoqTRMGRgkAy2eugKZrqijRLYThWANBpNDL2h3UE0J0YLJdbrfe42f/NJ0wqY7/KcXKPAAAAAElFTkSuQmCC&label=lovely%20crafted%20in&message=Germany&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+</p>
 
 <!--
 +------------------+
@@ -863,8 +1276,8 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.4.0 -->
 
-[arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
-[arcticicestudio/nord#94]: https://github.com/arcticicestudio/nord/issues/94
+[nordtheme/nord#55]: https://github.com/nordtheme/nord/issues/55
+[nordtheme/nord#94]: https://github.com/nordtheme/nord/issues/94
 [jb-blog-theme-plug]: https://blog.jetbrains.com/platform/2017/12/export-intellij-editor-themes-as-plugins
 [plugin-mat-ui]: https://plugins.jetbrains.com/plugin/8006-material-theme-ui
 
@@ -909,11 +1322,11 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.8.1 -->
 
-[gh-rel-0.8.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.8.0
+[gh-rel-0.8.0]: https://github.com/nordtheme/jetbrains/releases/tag/v0.8.0
 
 <!-- v0.9.0 -->
 
-[gh-70]: https://github.com/arcticicestudio/nord-jetbrains/issues/70
+[gh-70]: https://github.com/nordtheme/jetbrains/issues/70
 [gh-user-n1kk]: https://github.com/n1kk
 [jb-goland-rln-2019.3#code-editing]: https://www.jetbrains.com/go/whatsnew/#v2019-3-code-editing
 [jb-rln-2019.3]: https://www.jetbrains.com/idea/whatsnew/#v2019-3
@@ -929,9 +1342,9 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- 0.11.0 -->
 
-[gh-120#585628215]: https://github.com/arcticicestudio/nord-jetbrains/issues/120#issuecomment-585628215
-[gh-120#585635441]: https://github.com/arcticicestudio/nord-jetbrains/issues/120#issuecomment-585635441
-[gh-rel-v0.10.0]: https://github.com/arcticicestudio/nord-jetbrains/releases/tag/v0.10.0
+[gh-120#585628215]: https://github.com/nordtheme/jetbrains/issues/120#issuecomment-585628215
+[gh-120#585635441]: https://github.com/nordtheme/jetbrains/issues/120#issuecomment-585635441
+[gh-rel-v0.10.0]: https://github.com/nordtheme/jetbrains/releases/tag/v0.10.0
 [gh-user-yuru7]: https://github.com/yuru7
 [jb-blog-announce-2019.3.3]: https://blog.jetbrains.com/idea/2020/02/intellij-idea-2019-3-3-is-out
 [jb-doc-diffing]: https://www.jetbrains.com/help/idea/comparing-files-and-folders.html
@@ -952,7 +1365,7 @@ otherwise Markdown elements are not parsed and rendered!
 <!-- 0.12.0 -->
 
 [blade]: https://laravel.com/docs/7.x/blade
-[gh-159-comment-color_calc]: https://github.com/arcticicestudio/nord-jetbrains/pull/159#issuecomment-653178090
+[gh-159-comment-color_calc]: https://github.com/nordtheme/jetbrains/pull/159#issuecomment-653178090
 [jb-docs-blade]: https://www.jetbrains.com/help/phpstorm/blade-page.html
 [jb-docs-smarty]: https://www.jetbrains.com/help/phpstorm/smarty.html
 [jb-docs-twig]: https://www.jetbrains.com/help/phpstorm/symfony-twig.html
@@ -961,7 +1374,7 @@ otherwise Markdown elements are not parsed and rendered!
 [jb-plug-twig]: https://plugins.jetbrains.com/plugin/7303-twig
 [php]: https://www.php.net
 [phpstorm]: https://www.jetbrains.com/phpstorm
-[repo-compare-tag-v0.11.2_v0.12.0]: https://github.com/arcticicestudio/nord-jetbrains/compare/v0.11.2...v0.12.0
+[repo-compare-tag-v0.11.2_v0.12.0]: https://github.com/nordtheme/jetbrains/compare/v0.11.2...v0.12.0
 [smarty]: https://www.smarty.net
 [twig]: https://twig.symfony.com
 
@@ -969,7 +1382,7 @@ otherwise Markdown elements are not parsed and rendered!
 
 [jb-plug-ruby]: https://plugins.jetbrains.com/plugin/1293-ruby
 [rdoc]: https://github.com/ruby/rdoc
-[repo-compare-tag-v0.12.0_v0.13.0]: https://github.com/arcticicestudio/nord-jetbrains/compare/v0.12.0...v0.13.0
+[repo-compare-tag-v0.12.0_v0.13.0]: https://github.com/nordtheme/jetbrains/compare/v0.12.0...v0.13.0
 [ruby]: https://www.ruby-lang.org
 [rubymine]: https://www.jetbrains.com/ruby
 [wiki-eruby]: https://en.wikipedia.org/wiki/ERuby
