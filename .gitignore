@@ -1,17 +1,24 @@
-# Copyright (C) 2018-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2018-present Sven Greb <development@svengreb.de>
-#
-# Project:    Nord JetBrains
-# Repository: https://github.com/arcticicestudio/nord-jetbrains
-# License:    MIT
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+# Path match pattern to intentionally ignore untracked files and directories.
+# See https://git-scm.com/docs/gitignore for more details.
 
 # +------+
 # + Java +
 # +------+
 *.jar
 
+# +---------+
+# + Node.js +
+# +---------+
+**/node_modules/
+
 # +-------------------+
 # + Project Structure +
 # +-------------------+
 .idea/
+!.idea/runConfigurations
+!.idea/saved-exports
+!.idea/watcherTasks.xml
 out/
