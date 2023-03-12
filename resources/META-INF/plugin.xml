@@ -1,8 +1,16 @@
+<!--
+Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+This source code is licensed under the MIT license found in the license file.
+-->
+<!--
+References:
+  1. https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html#idea-plugin
+-->
 <idea-plugin>
   <id>com.arcticicestudio.nord.jetbrains</id>
   <name>Nord</name>
   <version>0.13.0</version>
-  <vendor email="development@arcticicestudio.com" url="https://www.arcticicestudio.com">Arctic Ice Studio</vendor>
+  <vendor email="development@svengreb.de" url="https://www.svengreb.de">Sven Greb</vendor>
 
   <description>
     <![CDATA[
@@ -10,18 +18,17 @@
     ]]>
   </description>
 
-  <!-- See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for details.-->
-  <idea-version since-build="191.0"/>
+  <!-- See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for details. -->
+  <idea-version since-build="191.0" />
 
   <!--
-  See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html on how to target
-  different products
+  See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html on how to target different products.
   Using `com.intellij.modules.lang` enables support for all products.
   -->
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="1324eea6-b737-4305-8a73-14af69073eae" path="/nord.theme.json"/>
+    <themeProvider id="1324eea6-b737-4305-8a73-14af69073eae" path="/nord.theme.json" />
   </extensions>
 
   <actions>

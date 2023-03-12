@@ -1,3 +1,7 @@
+<!--
+Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+This source code is licensed under the MIT license found in the license file.
+-->
 <scheme name="Nord" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2016-09-24T21:08:20</property>
