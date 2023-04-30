@@ -6,5 +6,8 @@
 
 .husky/_/
 .idea/
+!.idea/runConfigurations
+!.idea/saved-exports
+!.idea/watcherTasks.xml
 node_modules/
 out/
