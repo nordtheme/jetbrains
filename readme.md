@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" />
     </picture>
   </a>
 </p>
@@ -26,14 +26,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/arcticicestudio/styleguide-javascript/releases/latest" target="_blank">
-    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-javascript.svg?style=flat-square&label=JavaScript%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=javascript"/>
+  <a href="https://github.com/svengreb/styleguide-javascript/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/svengreb/styleguide-javascript.svg?style=flat-square&label=JavaScript%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=javascript"/>
   </a>
-  <a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank">
-    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Markdown%20Style%20Guide&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/>
+  <a href="https://github.com/svengreb/styleguide-markdown/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/svengreb/styleguide-markdown.svg?style=flat-square&label=Markdown%20Style%20Guide&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/>
   </a>
-  <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank">
-    <img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git"/>
+  <a href="https://github.com/svengreb/styleguide-git/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/svengreb/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git"/>
   </a>
 </p>
 
@@ -49,7 +49,7 @@
 
 <p align="center">
   <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-overview-go.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-overview-go.png"/>
   </a>
 </p>
 
@@ -67,7 +67,7 @@ Open **Settings** ➜ **Plugins**, switch to the **Marketplace** tab and search 
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-plugins-installed.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-plugins-installed.png"/>
   </picture>
 </p>
 
@@ -75,7 +75,7 @@ Click on the <kbd>Install</kbd> button and restart the IDE to finish the install
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-plugins-marketplace.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-plugins-marketplace.png"/>
   </picture>
 </p>
 
@@ -87,7 +87,7 @@ To activate the UI theme go to **Settings** ➜ **Appearance & Behavior** ➜ **
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-settings-appearance.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-settings-appearance.png"/>
   </picture>
 </p>
 
@@ -97,7 +97,7 @@ To activate the editor theme go to **Settings** ➜ **Editor** ➜ **Color Theme
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-settings-color-scheme.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-settings-color-scheme.png"/>
   </picture>
 </p>
 
@@ -106,21 +106,21 @@ To activate the editor theme go to **Settings** ➜ **Editor** ➜ **Color Theme
 <p align="center">
   <strong>A unified UI and editor syntax element design provides a clutter-free and fluidly merging appearance.</strong><br />
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-overview-java-spring-boot.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-overview-java-spring-boot.png"/>
   </picture>
 </p>
 
 <p align="center">
   <strong>Themed UI elements provide a fluid and unobtrusive transition from the code editor to the IDE.</strong><br />
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/ui-test-components.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-test-components.png"/>
   </picture>
 </p>
 
 <p align="center">
   <strong>The editor color scheme supports a wide range of programming languages — From bundled plugins of both community and ultimate editions up to most popular third-party plugins.</strong><br />
   <picture>
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/jetbrains/editor-syntax-java-enum.png"/>
+    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/editor-syntax-java-enum.png"/>
   </picture>
 </p>
 
