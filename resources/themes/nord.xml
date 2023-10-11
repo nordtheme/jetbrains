@@ -2197,6 +2197,11 @@ This source code is licensed under the MIT license found in the license file.
         <option name="BACKGROUND" value="bf616a" />
       </value>
     </option>
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR">
+      <value>
+        <option name="BACKGROUND" value="ebcb8b" />
+      </value>
+    </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
