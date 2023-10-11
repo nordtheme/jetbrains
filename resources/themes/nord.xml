@@ -2192,6 +2192,11 @@ This source code is licensed under the MIT license found in the license file.
         <option name="EFFECT_COLOR" value="88c0d0" />
       </value>
     </option>
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR">
+      <value>
+        <option name="BACKGROUND" value="a3be8c" />
+      </value>
+    </option>
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR">
       <value>
         <option name="BACKGROUND" value="bf616a" />
